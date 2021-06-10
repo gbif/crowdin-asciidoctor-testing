@@ -13,7 +13,7 @@ Traducteurs : veuillez ignorer ce fichier.   Il n'est pas nécessaire de le trad
 
 == Test de table [[testing-of-tables]]
 
-WARNING: The anchor `[[testing-of-tables]]` for this section cannot be transated in CrowdIn.
+WARNING: The anchor `pass:[[[testing-of-tables]]]` for this section cannot be transated in CrowdIn.
 
 [%header,cols=">1,2"]
 |===
@@ -154,6 +154,8 @@ Le fractionner :
 
 Quelque chose
 
+WARNING: L'élément de liste avec des espaces pour continuer ne fonctionne pas dans CrowdIn.
+
 * Informations facultatives sur l'auteur et la révision
 suit immédiatement le titre de l'en-tête.
 
@@ -196,7 +198,13 @@ C'est la réponse.
 
 As-tu vu mon canard ?:: Non.
 
-Ask questions on the https://discuss.asciidoctor.org/[*mailing list*], link:++https://example.org/now_this__link_works.html++[].
+Posez des questions sur la https://discuss.asciidoctor.org/[*liste de diffusion*].
+
+WARNING: Le lien avec cette syntaxe ne fonctionne pas dans CrowdIn.
+
+Or link:++https://example.org/now_this__link_works.html++[].
+
+WARNING: La note de bas de page ne fonctionne pas dans CrowdIn.
 
 A bold statement!footnote:disclaimer[Opinions are my own.]
 
