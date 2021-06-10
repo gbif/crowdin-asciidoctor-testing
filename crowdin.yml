@@ -3,3 +3,7 @@ files:
     translation: /%file_name%.%two_letters_code%.adoc
     translation_replace:
       .en.: .
+  - source: /*.en.vtt
+    translation: /%file_name%.%two_letters_code%.vtt
+    translation_replace:
+      .en.: .
