@@ -105,6 +105,11 @@ WARNING: The alternative text on an image is not translatable in CrowdIn.
 .This image has a caption
 image::sunset.jpg[alt=Sunset (alt text),width=200,height=100]
 
+Gap.
+
+.This image has a caption
+image::sunset.jpg[alt="Sunset (alt text)",width="200",height="100"]
+
 Something else.
 
 == Paragraphs
@@ -229,3 +234,14 @@ endif::[]
 == Antora
 
 A crossreference link looks like xref:manage-resources.adoc#_citations[this] (check the anchor can be translated), or to a xref:1.adoc.0@component-b::index.adoc#anchor[different version].
+
+
+== AsciiDoctor
+
+Is CrowdIn only supporting AsciiDoc, not AsciiDoctor?  Version {asciidoctor} – {asciidoctor-version}.
+
+Level X header (both)
+---------------------
+
+Level X header (AsciiDoc)
+---------------------------------
