@@ -3,3 +3,5 @@ files:
     ignore:
       - index.en.adoc
     translation: /%file_name%.%two_letters_code%.adoc
+    translation_replace:
+      en.:
