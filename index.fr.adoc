@@ -105,12 +105,12 @@ WARNING: Le texte alternatif sur une image n'est pas traduisible dans CrowdIn.
 .Cette image a une légende
 image::sunset.jpg[alt=Sunset (alt text),width=200,height=100]
 
-Gap.
+Espace
 
 .Cette image a une légende
 image::sunset.jpg[alt="Sunset (alt text)",width="200",height="100"]
 
-Something else.
+Autre
 
 == Paragraphes
 
@@ -238,9 +238,9 @@ Un lien de référence croisée ressemble à xref:manage-resources.adoc#_les_cit
 
 == AsciiDoctor
 
-Is CrowdIn only supporting AsciiDoc, not AsciiDoctor?  Version {asciidoctor} – {asciidoctor-version}.
+CrowdIn ne prend-il en charge que AsciiDoc, pas AsciiDoctor ?  Version {asciidoctor} – {asciidoctor-version}.
 
-Level X header (both)
+En-tête de niveau X (les deux)
 ---------------------
 
 Level X header (AsciiDoc)
