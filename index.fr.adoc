@@ -1,4 +1,4 @@
-= CrowdIn AsciiDoctor Tests
+= CrowdIn AsciiDoctor Tests (français)
 Matthew Blissett <mblissett@gbif.org>
 :description: Test du support AsciiDoctor de CrowdIn
 :experimental:
@@ -36,6 +36,20 @@ We can also link this way: <<links>>.
 We can link to the section on <<Table test,tables>> (or <<Table test>>).  The same for <<blocks,blocks>> (or <<blocks>>).
 
 Finally, to <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
+
+=== Références croisées de syntaxe complète
+
+Ce qui précède ne semble pas fonctionner, nous pouvons donc essayer la syntaxe complète.
+
+****
+We can link to xref:links[this section].
+
+We can also link this way: xref:links[].
+
+We can link to the section on xref:Table{sp}test[tables] (or xref:Table{sp}test[]).  The same for xref:blocks[blocks] (or xref:blocks[]).
+
+Finally, to xref:paragraphs[paragraphs (no custom id)] or xref:paragraphs[].
+****
 
 [#blocks]
 == Test de bloc
