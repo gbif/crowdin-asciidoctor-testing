@@ -1,9 +1,0 @@
-= CrowdIn AsciiDoctor Testing
-Matthew Blissett <mblissett@gbif.org>
-:experimental:
-:stem:
-
-[.normal]
-This repository is to test CrowdIn's new (November 2020) support for direct translation of AsciiDoc / AsciiDoctor markup.
-
-Translators: please ignore this file.  There is no need to translate it.  Any questions should be sent to mailto:mblissett@gbif.org[Matthew Blissett].
