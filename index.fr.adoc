@@ -1,4 +1,4 @@
-= CrowdIn AsciiDoctor Tests
+= CrowdIn AsciiDoctor Tests (français)
 Matthew Blissett <mblissett@gbif.org>
 :description: Test du support AsciiDoctor de CrowdIn
 :experimental:
