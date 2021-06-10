@@ -37,6 +37,20 @@ We can link to the section on <<Table test,tables>> (or <<Table test>>).  The sa
 
 Finally, to <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
 
+=== Full-syntax crossreferences
+
+The above doesn't seem to work, so we could try the full syntax.
+
+****
+We can link to xref:links[this section].
+
+We can also link this way: xref:links[].
+
+We can link to the section on xref:Table{sp}test[tables] (or xref:Table{sp}test[]).  The same for xref:blocks[blocks] (or xref:blocks[]).
+
+Finally, to xref:paragraphs[paragraphs (no custom id)] or xref:paragraphs[].
+****
+
 [#blocks]
 == Test de bloc
 
