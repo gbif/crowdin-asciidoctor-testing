@@ -1,4 +1,0 @@
-= CrowdIn AsciiDoctor Testing
-:source-highlighter: pygments
-
-This repository is to test CrowdIn's new (November 2020) support for direct translation of AsciiDoc / AsciiDoctor markup.
