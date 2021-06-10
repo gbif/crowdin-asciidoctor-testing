@@ -29,7 +29,14 @@ a| The second version
 [[links,Example of Links]]
 == Link test
 
-We can link to <<links,this section>> (or this way: <<links>>), and we can also link to the section on <<Table test,tables>> (or <<Table test>>).  The same for <<blocks,blocks>> (or <<blocks>>), and <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
+We can link to <<links,this section>>.
+
+We can also link this way: <<links>>.
+
+We can link to the section on <<Table test,tables>> (or <<Table test>>).  The same for <<blocks,blocks>> (or <<blocks>>).
+
+Finally, to <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
+
 [#blocks]
 == Block test
 
@@ -164,8 +171,8 @@ Press the btn:[OK] button when you are finished.
 
 Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
 
-ifdef::env-github[]
-This content is for GitHub only.
+ifdef::backend-pdf[]
+This content is for PDF only.
 endif::[]
 
 == Antora
