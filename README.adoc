@@ -1,0 +1,5 @@
+= Crowdin AsciiDoctor integration testing
+
+There are some issues with CrowdIn's AsciiDoctor support.  This is a demonstration.
+
+See https://gbif.github.io/crowdin-asciidoctor-testing/en/index.en.html[English] and https://gbif.github.io/crowdin-asciidoctor-testing/fr/index.fr.html[my terrible auto-translated French] results, and the source files above.
