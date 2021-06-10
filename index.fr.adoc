@@ -8,9 +8,7 @@ Matthew Blissett <mblissett@gbif.org>
 [.normal]
 Ce référentiel est destiné à tester la nouvelle prise en charge de CrowdIn (novembre 2020) pour la traduction directe du balisage AsciiDoc / AsciiDoctor.
 
-Traducteurs : veuillez ignorer ce fichier.   Il n'est pas nécessaire de le traduire.  109 / 5000
-Translation results
-Toute question doit être envoyée à mailto:mblissett@gbif.org[Matthew Blissett]. 
+Traducteurs : veuillez ignorer ce fichier.   Il n'est pas nécessaire de le traduire.  Toute question doit être envoyée à mailto:mblissett@gbif.org[Matthew Blissett]. 
 
 == Test de table [[testing-of-tables]]
 
@@ -31,7 +29,14 @@ a| La deuxième version
 [[links,Example of Links]]
 == Test de lien
 
-We can link to <<links,this section>> (or this way: <<links>>), and we can also link to the section on <<Table test,tables>> (or <<Table test>>).  The same for <<blocks,blocks>> (or <<blocks>>), and <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
+We can link to <<links,this section>>.
+
+We can also link this way: <<links>>.
+
+We can link to the section on <<Table test,tables>> (or <<Table test>>).  The same for <<blocks,blocks>> (or <<blocks>>).
+
+Finally, to <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
+
 [#blocks]
 == Test de bloc
 
@@ -166,8 +171,8 @@ Press the btn:[OK] button when you are finished.
 
 Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
 
-ifdef::env-github[]
-This content is for GitHub only.
+ifdef::backend-pdf[]
+This content is for PDF only.
 endif::[]
 
 == Antora
