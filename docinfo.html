@@ -1,0 +1,19 @@
+<script>
+(function(){ })();
+</script>
+
+<script>
+	function showAnchors() {
+		var anchors = document.body.querySelectorAll('[id], [name]');
+		Array.prototype.forEach.call(anchors, function (element) {
+			var link = document.createElement('a');
+			var hash = '#' + element.id || element.name;
+			link.href = hash;
+			link.innerText = hash;
+			link.style.cssText = 'background:hotpink !important; color:white !important;';
+			element.insertBefore(link, element.firstChild);
+		});
+	}
+
+	document.addEventListener("DOMContentLoaded", showAnchors);
+</script>
