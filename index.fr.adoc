@@ -1,48 +1,50 @@
-= CrowdIn AsciiDoctor Testing
+= CrowdIn AsciiDoctor Tests
 Matthew Blissett <mblissett@gbif.org>
-:description: Testing of CrowdIn's AsciiDoctor support
+:description: Test du support AsciiDoctor de CrowdIn
 :experimental:
 :stem:
 //:source-highlighter: pygments
 
 [.normal]
-This repository is to test CrowdIn's new (November 2020) support for direct translation of AsciiDoc / AsciiDoctor markup.
+Ce référentiel est destiné à tester la nouvelle prise en charge de CrowdIn (novembre 2020) pour la traduction directe du balisage AsciiDoc / AsciiDoctor.
 
-Translators: please ignore this file.  There is no need to translate it.  Any questions should be sent to mailto:mblissett@gbif.org[Matthew Blissett].
+Traducteurs : veuillez ignorer ce fichier.   Il n'est pas nécessaire de le traduire.  109 / 5000
+Translation results
+Toute question doit être envoyée à mailto:mblissett@gbif.org[Matthew Blissett]. 
 
-== Table test [[testing-of-tables]]
+== Test de table [[testing-of-tables]]
 
 [%header,cols=">1,2"]
 |===
 | Version    | Description
 
-| Initial    | The first version
+| Initial    | La première version 
 
-| Subsequent
+| suivant
 
-a| The second version
+a| La deuxième version
 
-* But with bullets
-* Etc.
+* Mais avec des balles 
+* etc.
 |===
 
 [[links,Example of Links]]
-== Link test
+== Test de lien
 
 We can link to <<links,this section>> (or this way: <<links>>), and we can also link to the section on <<Table test,tables>> (or <<Table test>>).  The same for <<blocks,blocks>> (or <<blocks>>), and <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
 [#blocks]
-== Block test
+== Test de bloc
 
 [quote]
-Once upon a time.
+Il était une fois...
 
 [TIP]
 ====
-* Advice
-* More advice
+* Conseil
+* Plus de conseils
 ====
 
-NOTE: Something to note.
+NOTE: Quelque chose à noter
 
 // Comment
 
@@ -55,12 +57,12 @@ public static void main(String[] args) { }
 ```
 
 ++++
-Some <b>HTML</b>
+Un peu de <b>HTML</b>
 ++++
 
 [source,java]
 ----
-System.out.println("Hello world!");
+System.out.println("Bonjour le monde!");
 ----
 
 A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
@@ -70,87 +72,87 @@ A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
 a = pi r^2
 ++++
 
-Something.
+Quelque chose
 
-.This image has a caption
+.Cette image a une légende
 image::sunset.jpg[alt=Sunset (alt text),width=200,height=100]
 
-Something else.
+Autre
 
-== Paragraphs
+== Paragraphes
 
-A paragraph +
-with a line break.
+Un paragraphe +
+avec un saut de ligne. 
 
-A paragraph
-without a line break.
+Un paragraphe
+sans saut de ligne.
 
-Thematic break.
+Pause thématique.
 
 '''
 
-Page break.
+Saut de page
 
 <<<
 
 Some *strong* or _emphasized_ text, `monospace`, #highlight#, ~subscript~ and ^superscript^, 'quotes' and "quotes", ``**__char__**``acter``**__s__**`` and some [.red]#red#.
 
 [square]
-.Possible DefOps manual locations
-* West wood maze
-** Maze heart
-*** Reflection pool
-** Secret exit
-* Untracked file in git repository
+.Emplacements possibles des manuels DevOps
+* Labyrinthe des bois de l'ouest
+** Coeur de labyrinthe
+*** Bassin de réflexion
+** Sortie secrète
+* Fichier non suivi dans le référentiel git
 
 [%interactive]
-* [*] checked
-* [x] also checked
-* [ ] not checked
-* normal list item
+* [*] vérifié
+* [x] aussi vérifié
+* [ ] non vérifié.
+* élément de liste normal
 
-Something.
+Quelque chose
 
-* Optional Author and Revision information
-immediately follows the header title.
+* Informations facultatives sur l'auteur et la révision
+suit immédiatement le titre de l'en-tête.
 
 * The document header must be separated from
   the remainder of the document by one or more
   blank lines and cannot contain blank lines.
 
-* The header in AsciiDoc must start with a document title.
+* L'en-tête dans AsciiDoc doit commencer par un titre de document.
 +
 --
-Here's an example of a document title:
+Voici un exemple de titre de document :
 
 ----
-= Document Title
+= Titre du document
 ----
 
-NOTE: The header is optional.
+NOTE: L'en-tête est facultatif.
 --
 
 
 . {blank}
 +
 ----
-print("one")
+print("un")
 ----
 . {blank}
 +
 ----
-print("one")
+print("un")
 ----
 
 
-CPU:: The brain of the computer.
-Hard drive:: Permanent storage for operating system and/or user files.
+Processeur:: Le cerveau de l'ordinateur.
+Disque dur:: Stockage permanent du système d'exploitation et/ou des fichiers utilisateur.
 
 [qanda]
-What is the answer?::
-This is the answer.
+Qu'ont-ils répondu?::
+C'est la réponse.
 
-Have you seen my duck?:: No.
+As-tu vu mon canard ?:: Non.
 
 Ask questions on the https://discuss.asciidoctor.org/[*mailing list*], link:++https://example.org/now_this__link_works.html++[].
 
@@ -170,4 +172,4 @@ endif::[]
 
 == Antora
 
-A crossreference link looks like xref:manage-resources.adoc#_citations[this] (check the anchor can be translated), or to a xref:1.adoc.0@component-b::index.adoc#anchor[different version].
+Un lien de référence croisée ressemble à xref:manage-resources.adoc#_les_citationnes[ceci] (vérifiez que l'ancre peut être traduite), ou à un xref:1.adoc.0@component-b::index.adoc#ancre[version différente].
