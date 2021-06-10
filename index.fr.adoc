@@ -7,7 +7,7 @@ Matthew Blissett <mblissett@gbif.org>
 :docinfo: shared-head
 
 [.normal]
-This repository is to test CrowdIn's new (November 2020) support for direct translation of AsciiDoc / AsciiDoctor markup.  The pink identifiers show HTML anchors.
+Ce référentiel est destiné à tester la nouvelle prise en charge de CrowdIn (novembre 2020) pour la traduction directe du balisage AsciiDoc / AsciiDoctor.  Les identifiants roses montrent les ancres HTML.
 
 Traducteurs : veuillez ignorer ce fichier.   Il n'est pas nécessaire de le traduire.  Toute question doit être envoyée à mailto:mblissett@gbif.org[Matthew Blissett]. 
 
@@ -32,7 +32,7 @@ a| La deuxième version
 [[links,Example of Links]]
 == Test de lien
 
-WARNING: Sentences containing crossreferences don't appear to translate at all in CrowdIn.  It's also not clear what to use as links, when they might be set manually (but aren't available for translation), or automatically derived from translated titles.
+WARNING: Les phrases contenant des références croisées ne semblent pas du tout se traduire dans CrowdIn.  On ne sait pas non plus quoi utiliser comme liens, quand ils peuvent être définis manuellement (mais ne sont pas disponibles pour la traduction) ou automatiquement dérivés des titres traduits.
 
 We can link to <<links,this section>>.
 
@@ -42,9 +42,9 @@ We can link to the section on <<Table test,tables>> (or <<Table test>>).  Also w
 
 Finally, to <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
 
-=== Full-syntax crossreferences
+=== Références croisées de syntaxe complète
 
-The above doesn't seem to work, so we could try the full syntax.
+Ce qui précède ne semble pas fonctionner, nous pouvons donc essayer la syntaxe complète.
 
 ****
 We can link to xref:links[this section].
@@ -89,7 +89,7 @@ Un peu de <b>HTML</b>
 System.out.println("Bonjour le monde!");
 ----
 
-WARNING: Sentences containing inline STEM content are not translatable in CrowdIn.
+WARNING: Les phrases contenant du contenu STEM en ligne ne sont pas traduisibles dans CrowdIn.
 
 A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
 
@@ -98,14 +98,14 @@ A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
 a = pi r^2
 ++++
 
-Something.
+Quelque chose
 
-WARNING: The alternative text on an image is not translatable in CrowdIn.
+WARNING: Le texte alternatif sur une image n'est pas traduisible dans CrowdIn.
 
-.This image has a caption
+.Cette image a une légende
 image::sunset.jpg[alt=Sunset (alt text),width=200,height=100]
 
-Something else.
+Autre
 
 == Paragraphes
 
@@ -123,54 +123,54 @@ Saut de page
 
 <<<
 
-WARNING: Something in this jumble of inline markup (copied from the documentation) is not translatable in CrowdIn.
+WARNING: Quelque chose dans ce fouillis de balisage en ligne (copié à partir de la documentation) n'est pas traduisible dans CrowdIn.
 
 Some *strong* or _emphasized_ text, `monospace`, #highlight#, ~subscript~ and ^superscript^, 'quotes' and "quotes", ``**__char__**``acter``**__s__**`` and some [.red]#red#.
 
-Splitting it up:
+Le fractionner :
 
-* Some *strong* or _emphasized_ text,
+* Du texte *fort* ou _accentué_,
 * `monospace`,
-* #highlight#,
-* ~subscript~ and
-* ^superscript^,
-* 'quotes' and "quotes",
-* ``**__char__**``acter``**__s__**`` and
+* #surligner#,
+* ~indice~ et
+* ^exposant^,
+* « citations » et « citations »,
+* `*_cara_*`ctère`*_s_*`
 * some [.red]#red#.
 
 [square]
-.Possible DevOps manual locations
-* West wood maze
-** Maze heart
-*** Reflection pool
-** Secret exit
-* Untracked file in git repository
+.Emplacements possibles des manuels DevOps
+* Labyrinthe des bois de l'ouest
+** Coeur de labyrinthe
+*** Bassin de réflexion
+** Sortie secrète
+* Fichier non suivi dans le référentiel git
 
 [%interactive]
-* [*] checked
-* [x] also checked
-* [ ] not checked
-* normal list item
+* [*] vérifié
+* [x] aussi vérifié
+* [ ] non vérifié.
+* élément de liste normal
 
-Something.
+Quelque chose
 
-* Optional Author and Revision information
-immediately follows the header title.
+* Informations facultatives sur l'auteur et la révision
+suit immédiatement le titre de l'en-tête.
 
 * The document header must be separated from
   the remainder of the document by one or more
   blank lines and cannot contain blank lines.
 
-* The header in AsciiDoc must start with a document title.
+* L'en-tête dans AsciiDoc doit commencer par un titre de document.
 +
 --
-Here's an example of a document title:
+Voici un exemple de titre de document :
 
 ----
-= Document Title
+= Titre du document
 ----
 
-NOTE: The header is optional.
+NOTE: L'en-tête est facultatif.
 --
 
 
@@ -178,33 +178,33 @@ NOTE: The header is optional.
 . {blank}
 +
 ----
-print("one")
+print("un")
 ----
 . {blank}
 +
 ----
-print("two")
+print("deux")
 ----
 
 
-CPU:: The brain of the computer.
-Hard drive:: Permanent storage for operating system and/or user files.
+Processeur:: Le cerveau de l'ordinateur.
+Disque dur:: Stockage permanent du système d'exploitation et/ou des fichiers utilisateur.
 
 [qanda]
-What is the answer?::
-This is the answer.
+Qu'ont-ils répondu?::
+C'est la réponse.
 
-Have you seen my duck?:: No.
+As-tu vu mon canard ?:: Non.
 
 Ask questions on the https://discuss.asciidoctor.org/[*mailing list*], link:++https://example.org/now_this__link_works.html++[].
 
 A bold statement!footnote:disclaimer[Opinions are my own.]
 
-WARNING: CrowdIn isn't translating the sentence with an inline image.
+WARNING: CrowdIn ne traduit pas la phrase avec une image en ligne.
 
 Click image:play.png[play (alt text)] to get the party started.
 
-WARNING: Nor is it translating the kbd, btn and menu macros.
+WARNING: Il ne traduit pas non plus les macros kbd, btn et menu.
 
 kbd:[Ctrl + +]
 
@@ -212,7 +212,7 @@ Press the btn:[OK] button when you are finished.
 
 Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
 
-WARNING: The `backend-pdf` content is not available for translation on CrowdIn.
+WARNING: Le contenu `backend-pdf` n'est pas disponible pour la traduction sur CrowdIn.
 
 ifdef::backend-pdf[]
 This content is for PDF only.
