@@ -4,13 +4,16 @@ Matthew Blissett <mblissett@gbif.org>
 :experimental:
 :stem:
 //:source-highlighter: pygments
+:docinfo: shared-head
 
 [.normal]
-This repository is to test CrowdIn's new (November 2020) support for direct translation of AsciiDoc / AsciiDoctor markup.
+This repository is to test CrowdIn's new (November 2020) support for direct translation of AsciiDoc / AsciiDoctor markup.  The pink identifiers show HTML anchors.
 
 Translators: please ignore this file.  There is no need to translate it.  Any questions should be sent to mailto:mblissett@gbif.org[Matthew Blissett].
 
 == Table test [[testing-of-tables]]
+
+WARNING: The anchor `[[testing-of-tables]]` for this section cannot be transated in CrowdIn.
 
 [%header,cols=">1,2"]
 |===
@@ -29,11 +32,13 @@ a| The second version
 [[links,Example of Links]]
 == Link test
 
+WARNING: Sentences containing crossreferences don't appear to translate at all in CrowdIn.  It's also not clear what to use as links, when they might be set manually (but aren't available for translation), or automatically derived from translated titles.
+
 We can link to <<links,this section>>.
 
 We can also link this way: <<links>>.
 
-We can link to the section on <<Table test,tables>> (or <<Table test>>).  The same for <<blocks,blocks>> (or <<blocks>>).
+We can link to the section on <<Table test,tables>> (or <<Table test>>).  Also with <<testing-of-tables,the custom id>> or <<testing-of-tables>>.  The same for <<blocks,blocks>> (or <<blocks>>).
 
 Finally, to <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
 
@@ -84,6 +89,8 @@ Some <b>HTML</b>
 System.out.println("Hello world!");
 ----
 
+WARNING: Sentences containing inline STEM content are not translatable in CrowdIn.
+
 A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
 
 [stem]
@@ -92,6 +99,8 @@ a = pi r^2
 ++++
 
 Something.
+
+WARNING: The alternative text on an image is not translatable in CrowdIn.
 
 .This image has a caption
 image::sunset.jpg[alt=Sunset (alt text),width=200,height=100]
@@ -114,10 +123,23 @@ Page break.
 
 <<<
 
+WARNING: Something in this jumble of inline markup (copied from the documentation) is not translatable in CrowdIn.
+
 Some *strong* or _emphasized_ text, `monospace`, #highlight#, ~subscript~ and ^superscript^, 'quotes' and "quotes", ``**__char__**``acter``**__s__**`` and some [.red]#red#.
 
+Splitting it up:
+
+* Some *strong* or _emphasized_ text,
+* `monospace`,
+* #highlight#,
+* ~subscript~ and
+* ^superscript^,
+* 'quotes' and "quotes",
+* ``**__char__**``acter``**__s__**`` and
+* some [.red]#red#.
+
 [square]
-.Possible DefOps manual locations
+.Possible DevOps manual locations
 * West wood maze
 ** Maze heart
 *** Reflection pool
@@ -152,6 +174,7 @@ NOTE: The header is optional.
 --
 
 
+
 . {blank}
 +
 ----
@@ -160,7 +183,7 @@ print("one")
 . {blank}
 +
 ----
-print("one")
+print("two")
 ----
 
 
@@ -177,13 +200,19 @@ Ask questions on the https://discuss.asciidoctor.org/[*mailing list*], link:++ht
 
 A bold statement!footnote:disclaimer[Opinions are my own.]
 
+WARNING: CrowdIn isn't translating the sentence with an inline image.
+
 Click image:play.png[play (alt text)] to get the party started.
+
+WARNING: Nor is it translating the kbd, btn and menu macros.
 
 kbd:[Ctrl + +]
 
 Press the btn:[OK] button when you are finished.
 
 Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+
+WARNING: The `backend-pdf` content is not available for translation on CrowdIn.
 
 ifdef::backend-pdf[]
 This content is for PDF only.
