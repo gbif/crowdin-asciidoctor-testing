@@ -154,25 +154,25 @@ Le fractionner :
 
 Quelque chose
 
-WARNING: The list item with spaces to continue it does not work in CrowdIn.
+WARNING: L'élément de liste avec des espaces pour continuer ne fonctionne pas dans CrowdIn.
 
-* Optional Author and Revision information
-immediately follows the header title.
+* Informations facultatives sur l'auteur et la révision
+suit immédiatement le titre de l'en-tête.
 
 * The document header must be separated from
   the remainder of the document by one or more
   blank lines and cannot contain blank lines.
 
-* The header in AsciiDoc must start with a document title.
+* L'en-tête dans AsciiDoc doit commencer par un titre de document.
 +
 --
-Here's an example of a document title:
+Voici un exemple de titre de document :
 
 ----
-= Document Title
+= Titre du document
 ----
 
-NOTE: The header is optional.
+NOTE: L'en-tête est facultatif.
 --
 
 
@@ -180,39 +180,39 @@ NOTE: The header is optional.
 . {blank}
 +
 ----
-print("one")
+print("un")
 ----
 . {blank}
 +
 ----
-print("two")
+print("deux")
 ----
 
 
-CPU:: The brain of the computer.
-Hard drive:: Permanent storage for operating system and/or user files.
+Processeur:: Le cerveau de l'ordinateur.
+Disque dur:: Stockage permanent du système d'exploitation et/ou des fichiers utilisateur.
 
 [qanda]
-What is the answer?::
-This is the answer.
+Qu'ont-ils répondu?::
+C'est la réponse.
 
-Have you seen my duck?:: No.
+As-tu vu mon canard ?:: Non.
 
-Ask questions on the https://discuss.asciidoctor.org/[*mailing list*].
+Posez des questions sur la https://discuss.asciidoctor.org/[*liste de diffusion*].
 
-WARNING: The link with this syntax doesn't work in CrowdIn.
+WARNING: Le lien avec cette syntaxe ne fonctionne pas dans CrowdIn.
 
 Or link:++https://example.org/now_this__link_works.html++[].
 
-WARNING: The footnote doesn't work in CrowdIn.
+WARNING: La note de bas de page ne fonctionne pas dans CrowdIn.
 
 A bold statement!footnote:disclaimer[Opinions are my own.]
 
-WARNING: CrowdIn isn't translating the sentence with an inline image.
+WARNING: CrowdIn ne traduit pas la phrase avec une image en ligne.
 
 Click image:play.png[play (alt text)] to get the party started.
 
-WARNING: Nor is it translating the kbd, btn and menu macros.
+WARNING: Il ne traduit pas non plus les macros kbd, btn et menu.
 
 kbd:[Ctrl + +]
 
@@ -220,7 +220,7 @@ Press the btn:[OK] button when you are finished.
 
 Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
 
-WARNING: The `backend-pdf` content is not available for translation on CrowdIn.
+WARNING: Le contenu `backend-pdf` n'est pas disponible pour la traduction sur CrowdIn.
 
 ifdef::backend-pdf[]
 This content is for PDF only.
