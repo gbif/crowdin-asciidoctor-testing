@@ -1,0 +1,10 @@
+*.brotli
+*.asis
+*.log
+es
+fa
+ja
+pt
+ru
+zh
+*.json
