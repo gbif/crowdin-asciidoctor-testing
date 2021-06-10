@@ -1,0 +1,180 @@
+= CrowdIn AsciiDoctor Testing
+Matthew Blissett <mblissett@gbif.org>
+:description: Testing of CrowdIn's AsciiDoctor support
+:experimental:
+:stem:
+//:source-highlighter: pygments
+
+[.normal]
+This repository is to test CrowdIn's new (November 2020) support for direct translation of AsciiDoc / AsciiDoctor markup.
+
+Translators: please ignore this file.  There is no need to translate it.  Any questions should be sent to mailto:mblissett@gbif.org[Matthew Blissett].
+
+== Table test [[testing-of-tables]]
+
+[%header,cols=">1,2"]
+|===
+| نسخه    | توضیحات
+
+| Initial    | The first version
+
+| Subsequent
+
+a| The second version
+
+* But with bullets
+* Etc.
+|===
+
+[[links,Example of Links]]
+== Link test
+
+We can link to <<links,this section>>.
+
+We can also link this way: <<links>>.
+
+We can link to the section on <<Table test,tables>> (or <<Table test>>).  The same for <<blocks,blocks>> (or <<blocks>>).
+
+Finally, to <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
+
+[#blocks]
+== Block test
+
+[quote]
+Once upon a time.
+
+[TIP]
+====
+* Advice
+* More advice
+====
+
+NOTE: Something to note.
+
+// Comment
+
+////
+Block comment
+////
+
+```
+public static void main(String[] args) { }
+```
+
+++++
+Some <b>HTML</b>
+++++
+
+[source,java]
+----
+System.out.println("Hello world!");
+----
+
+A matrix can be written as stem:[[[a,b\],[c,d\]\]((n),(k))].
+
+[stem]
+++++
+a = pi r^2
+++++
+
+Something.
+
+.This image has a caption
+image::sunset.jpg[alt=Sunset (alt text),width=200,height=100]
+
+Something else.
+
+== Paragraphs
+
+A paragraph +
+with a line break.
+
+A paragraph
+without a line break.
+
+Thematic break.
+
+'''
+
+Page break.
+
+<<<
+
+Some *strong* or _emphasized_ text, `monospace`, #highlight#, ~subscript~ and ^superscript^, 'quotes' and "quotes", ``**__char__**``acter``**__s__**`` and some [.red]#red#.
+
+[square]
+.Possible DefOps manual locations
+* West wood maze
+** Maze heart
+*** Reflection pool
+** Secret exit
+* Untracked file in git repository
+
+[%interactive]
+* [*] checked
+* [x] also checked
+* [ ] not checked
+* normal list item
+
+Something.
+
+* Optional Author and Revision information
+immediately follows the header title.
+
+* The document header must be separated from
+  the remainder of the document by one or more
+  blank lines and cannot contain blank lines.
+
+* The header in AsciiDoc must start with a document title.
++
+--
+Here's an example of a document title:
+
+----
+= Document Title
+----
+
+NOTE: The header is optional.
+--
+
+
+. {blank}
++
+----
+print("one")
+----
+. {blank}
++
+----
+print("one")
+----
+
+
+CPU:: The brain of the computer.
+Hard drive:: Permanent storage for operating system and/or user files.
+
+[qanda]
+What is the answer?::
+This is the answer.
+
+Have you seen my duck?:: No.
+
+Ask questions on the https://discuss.asciidoctor.org/[*mailing list*], link:++https://example.org/now_this__link_works.html++[].
+
+A bold statement!footnote:disclaimer[Opinions are my own.]
+
+Click image:play.png[play (alt text)] to get the party started.
+
+kbd:[Ctrl + +]
+
+Press the btn:[OK] button when you are finished.
+
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+
+ifdef::backend-pdf[]
+This content is for PDF only.
+endif::[]
+
+== Antora
+
+A crossreference link looks like xref:manage-resources.adoc#_citations[this] (check the anchor can be translated), or to a xref:1.adoc.0@component-b::index.adoc#anchor[different version].

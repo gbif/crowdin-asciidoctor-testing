@@ -1,0 +1,4 @@
+= CrowdIn AsciiDoctor Tests
+//:source-highlighter: pygments
+
+L'inclusion de l'attribut de document `:source-highlighter: pygments` entraîne l'échec de l'intégration de CrowdIn GitHub. 
