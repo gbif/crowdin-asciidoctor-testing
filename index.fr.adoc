@@ -105,7 +105,12 @@ WARNING: Le texte alternatif sur une image n'est pas traduisible dans CrowdIn.
 .Cette image a une légende
 image::sunset.jpg[alt=Sunset (alt text),width=200,height=100]
 
-Autre
+Gap.
+
+.Cette image a une légende
+image::sunset.jpg[alt="Sunset (alt text)",width="200",height="100"]
+
+Something else.
 
 == Paragraphes
 
@@ -229,3 +234,14 @@ endif::[]
 == Antora
 
 Un lien de référence croisée ressemble à xref:manage-resources.adoc#_les_citationnes[ceci] (vérifiez que l'ancre peut être traduite), ou à un xref:1.adoc.0@component-b::index.adoc#ancre[version différente].
+
+
+== AsciiDoctor
+
+Is CrowdIn only supporting AsciiDoc, not AsciiDoctor?  Version {asciidoctor} – {asciidoctor-version}.
+
+Level X header (both)
+---------------------
+
+Level X header (AsciiDoc)
+---------------------------------
