@@ -140,7 +140,7 @@ Le fractionner :
 * ~indice~ et
 * ^exposant^,
 * « citations » et « citations »,
-* `*_cara_*`ctère`*_s_*`
+* `*_cara_*{backtick}ctère`*_s_*`
 * some [.red]#red#.
 
 [square]
@@ -244,4 +244,5 @@ En-tête de niveau X (les deux)
 ---------------------
 
 Level X header (AsciiDoc)
+---------------------------------
 ---------------------------------
