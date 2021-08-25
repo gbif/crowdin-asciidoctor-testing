@@ -1,291 +1,291 @@
-term_localName comment,rdfs_comment
-acceptedNameUsage comment,"The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon."
-acceptedNameUsageID comment,An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.
-acceptedScientificName (deprecated) comment,The currently valid (zoological) or accepted (botanical) name for the scientificName.
-acceptedScientificNameID (deprecated) comment,A unique identifier for the acceptedScientificName.
-AcceptedTaxon (deprecated) comment,The currently valid (zoological) or accepted (botanical) name for the ScientificName.
-AcceptedTaxonID (deprecated) comment,A global unique identifier for the parent to the AcceptedTaxon.
-acceptedTaxonID (deprecated) comment,An identifier for the name of the currently valid (zoological) or accepted (botanical) taxon. See acceptedTaxon.
-acceptedTaxonName (deprecated) comment,The currently valid (zoological) or accepted (botanical) name for the scientificName.
-acceptedTaxonNameID (deprecated) comment,A unique identifier for the acceptedTaxonName.
-AccessConstraints (deprecated) comment,A description of constraints on the use of the data as shared or access to further data that is not shared.
-accordingTo (deprecated) comment,Abstract term to attribute information to a source.
-accuracy (deprecated) comment,Abstract term to capture error information about a measurement or fact.
-associatedMedia comment,"A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of media associated with the Occurrence."
-associatedOccurrences comment,A list (concatenated and separated) of identifiers of other Occurrence records and their associations to this Occurrence.
-associatedOrganisms comment,A list (concatenated and separated) of identifiers of other Organisms and the associations of this Organism to each of them.
-associatedReferences comment,"A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence."
-associatedSequences comment,"A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence."
-associatedTaxa comment,A list (concatenated and separated) of identifiers or names of taxa and the associations of this Occurrence to each of them.
-basionym (deprecated) comment,The basionym (botany) or basonym (bacteriology) of the scientificName.
-basionymID (deprecated) comment,A unique identifier for the basionym (botany) or basonym (bacteriology) of the scientificName.
-basisOfRecord comment,The specific nature of the data record.
-bed comment,The full name of the lithostratigraphic bed from which the cataloged item was collected.
-behavior comment,The behavior shown by the subject at the time the Occurrence was recorded.
-binomial (deprecated) comment,The combination of genus and first (species) epithet of the scientificName.
-catalogNumber comment,An identifier (preferably unique) for the record within the data set or collection.
-CatalogNumberNumeric (deprecated) comment,"The numeric value of the catalogNumber, used to facilitate numerical sorting and searching by ranges."
-class comment,The full scientific name of the class in which the taxon is classified.
-collectionCode comment,"The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived."
-collectionID comment,An identifier for the collection or dataset from which the record was derived.
-continent comment,The name of the continent in which the Location occurs.
-coordinatePrecision comment,A decimal representation of the precision of the coordinates given in the decimalLatitude and decimalLongitude.
-coordinateUncertaintyInMeters comment,"The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term."
-country comment,The name of the country or major administrative unit in which the Location occurs.
-countryCode comment,The standard code for the country in which the Location occurs.
-county comment,"The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs."
-dataGeneralizations comment,Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.
-Dataset (deprecated) comment,The category of information pertaining to a logical set of records.
-datasetID comment,An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution.
-datasetName comment,The name identifying the data set from which the record was derived.
-dateIdentified comment,The date on which the subject was determined as representing the Taxon.
-day comment,The integer day of the month on which the Event occurred.
-decimalLatitude comment,"The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive."
-decimalLongitude comment,"The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive."
-disposition comment,The current state of a specimen with respect to the collection identified in collectionCode or collectionID.
-DwCType (deprecated) comment,"The set of classes specified by the Darwin Core Type Vocabulary, used to categorize the nature or genre of the resource."
-dynamicProperties comment,"A list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content."
-earliestAgeOrLowestStage comment,The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.
-EarliestDateCollected (deprecated) comment,"The earliest date-time in a period during which a event occurred. If the event is recorded as occurring at a single date-time, populate both EarliestDateCollected and LatestDateCollected with the same value. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."
-earliestEonOrLowestEonothem comment,"The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name (""Precambrian"") attributable to the stratigraphic horizon from which the cataloged item was collected."
-earliestEpochOrLowestSeries comment,The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.
-earliestEraOrLowestErathem comment,The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.
-earliestPeriodOrLowestSystem comment,The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.
-endDayOfYear comment,"The latest integer day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366)."
-EndTimeOfDay (deprecated) comment,"The time of day when the event ended, expressed as decimal hours from midnight, local time."
-establishmentMeans comment,Statement about whether an organism or organisms have been introduced to a given place and time through the direct or indirect activity of modern humans.
-Event comment,An action that occurs at some location during some time.
-EventAttribute (deprecated) comment,Container class for information about attributes related to a given sampling event.
-EventAttributeAccuracy (deprecated) comment,The description of the error associated with the EventAttributeValue.
-EventAttributeDeterminedBy (deprecated) comment,The agent responsible for having determined the value of the measurement or characteristic of the sampling event.
-EventAttributeDeterminedDate (deprecated) comment,The date on which the the measurement or characteristic of the sampling event was made.
-EventAttributeID (deprecated) comment,An identifier for the event attribute. May be a global unique identifier or an identifier specific to the data set.
-EventAttributeRemarks (deprecated) comment,Comments or notes accompanying the measurement or characteristic of the sampling event.
-eventAttributes (deprecated) comment,A list (concatenated and separated) of additional measurements or characteristics of the Event.
-EventAttributeType (deprecated) comment,The nature of the measurement or characteristic of the sampling event. Recommended best practice is to use a controlled vocabulary.
-EventAttributeUnit (deprecated) comment,The units for the value of the measurement or characteristic of the sampling event. Recommended best practice is to use International System of Units (SI) units.
-EventAttributeValue (deprecated) comment,The value of the measurement or characteristic of the sampling event.
-eventDate comment,"The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context."
-eventID comment,An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.
-EventMeasurement (deprecated) comment,The category of information pertaining to measurements associated with an event.
-eventMeasurementAccuracy (deprecated) comment,The description of the error associated with the EventAttributeValue.
-eventMeasurementDeterminedBy (deprecated) comment,The agent responsible for having determined the value of the measurement or characteristic of the event.
-eventMeasurementDeterminedDate (deprecated) comment,"The date on which the the measurement or characteristic of the event was made. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."
-eventMeasurementID (deprecated) comment,An identifier for the event attribute. May be a global unique identifier or an identifier specific to the data set.
-eventMeasurementRemarks (deprecated) comment,Comments or notes accompanying the measurement or characteristic of the event.
-eventMeasurementType (deprecated) comment,The nature of the measurement or characteristic of the event. Recommended best practice is to use a controlled vocabulary.
-eventMeasurementUnit (deprecated) comment,The units for the value of the measurement or characteristic of the event. Recommended best practice is to use International System of Units (SI) units.
-eventMeasurementValue (deprecated) comment,The value of the measurement or characteristic of the event.
-eventRemarks comment,Comments or notes about the Event.
-eventTime comment,The time or interval during which an Event occurred.
-family comment,The full scientific name of the family in which the taxon is classified.
-fieldNotes comment,"One of a) an indicator of the existence of, b) a reference to (publication, URI), or c) the text of notes taken in the field about the Event."
-fieldNumber comment,An identifier given to the event in the field. Often serves as a link between field notes and the Event.
-footprintSpatialFit comment,"The ratio of the area of the footprint (footprintWKT) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given footprint does not completely contain the original representation. The footprintSpatialFit is undefined (and should be left empty) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the footprintSpatialFit is 1."
-footprintSRS comment,"The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geometry given in footprintWKT is based."
-footprintWKT comment,"A Well-Known Text (WKT) representation of the shape (footprint, geometry) that defines the Location. A Location may have both a point-radius representation (see decimalLatitude) and a footprint representation, and they may differ from each other."
-formation comment,The full name of the lithostratigraphic formation from which the cataloged item was collected.
-FossilSpecimen comment,A preserved specimen that is a fossil.
-Generalizations (deprecated) comment,Actions taken to make the data as shared less specific or complete than in its original form. Suggests that alternative data of highly quality may be available on request.
-genus comment,The full scientific name of the genus in which the taxon is classified.
-geodeticDatum comment,"The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based."
-GeologicalContext comment,"Geological information, such as stratigraphy, that qualifies a region or place."
-geologicalContextID comment,"An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set."
-georeferencedBy comment,"A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the Location."
-georeferencedDate comment,The date on which the Location was georeferenced.
-georeferenceProtocol comment,"A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties."
-georeferenceRemarks comment,"Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol."
-georeferenceSources comment,"A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources."
-georeferenceVerificationStatus comment,A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description for the Location of the Occurrence.
-group comment,The full name of the lithostratigraphic group from which the cataloged item was collected.
-habitat comment,A category or description of the habitat in which the Event occurred.
-higherClassification comment,A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record.
-higherGeography comment,A list (concatenated and separated) of geographic names less specific than the information captured in the locality term.
-higherGeographyID comment,An identifier for the geographic region within which the Location occurred.
-HigherTaxon (deprecated) comment,A list (concatenated and separated) of the names for the taxonomic ranks less specific than the ScientificName.
-higherTaxonconceptID (deprecated) comment,A unique identifier for the taxon concept less specific than that given in the taxonConceptID.
-HigherTaxonID (deprecated) comment,A global unique identifier for the parent to the taxon.
-higherTaxonName (deprecated) comment,A list (concatenated and separated) of the names for the taxonomic ranks less specific than that given in the scientificName.
-higherTaxonNameID (deprecated) comment,A unique identifier for the name of the next higher rank than the scientificName in a taxonomic classification. See higherTaxonName.
-highestBiostratigraphicZone comment,The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.
-HumanObservation comment,An output of a human observation process.
-Identification comment,"A taxonomic determination (e.g., the assignment to a taxon)."
-identificationAttributes (deprecated) comment,"A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the Identification."
-identificationID comment,An identifier for the Identification (the body of information associated with the assignment of a scientific name). May be a global unique identifier or an identifier specific to the data set.
-identificationQualifier comment,"A brief phrase or a standard term (""cf."", ""aff."") to express the determiner's doubts about the Identification."
-identificationReferences comment,"A list (concatenated and separated) of references (publication, global unique identifier, URI) used in the Identification."
-identificationRemarks comment,Comments or notes about the Identification.
-identificationVerificationStatus comment,A categorical indicator of the extent to which the taxonomic identification has been verified to be correct.
-identifiedBy comment,"A list (concatenated and separated) of names of people, groups, or organizations who assigned the Taxon to the subject."
-individualCount comment,The number of individuals present at the time of the Occurrence.
-individualID (deprecated) comment,An identifier for an individual or named group of individual organisms represented in the Occurrence. Meant to accommodate resampling of the same individual or group for monitoring purposes. May be a global unique identifier or an identifier specific to a data set.
-informationWithheld comment,"Additional information that exists, but that has not been shared in the given record."
-infraspecificEpithet comment,"The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation."
-institutionCode comment,The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.
-institutionID comment,An identifier for the institution having custody of the object(s) or information referred to in the record.
-island comment,The name of the island on or near which the Location occurs.
-islandGroup comment,The name of the island group in which the Location occurs.
-kingdom comment,The full scientific name of the kingdom in which the taxon is classified.
-latestAgeOrHighestStage comment,The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.
-LatestDateCollected (deprecated) comment,"The latest date-time in a period during which a event occurred. If the event is recorded as occurring at a single date-time, populate both EarliestDateCollected and LatestDateCollected with the same value. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."
-latestEonOrHighestEonothem comment,"The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name (""Precambrian"") attributable to the stratigraphic horizon from which the cataloged item was collected."
-latestEpochOrHighestSeries comment,The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.
-latestEraOrHighestErathem comment,The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.
-latestPeriodOrHighestSystem comment,The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.
-lifeStage comment,The age class or life stage of the Organism(s) at the time the Occurrence was recorded.
-lithostratigraphicTerms comment,The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected.
-LivingSpecimen comment,A specimen that is alive.
-locality comment,The specific description of the place.
-locationAccordingTo comment,"Information about the source of this Location information. Could be a publication (gazetteer), institution, or team of individuals."
-locationAttributes (deprecated) comment,"A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the location."
-locationID comment,An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set.
-locationRemarks comment,Comments or notes about the Location.
-lowestBiostratigraphicZone comment,The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.
-MachineObservation comment,An output of a machine observation process.
-MaterialSample comment,"A physical result of a sampling (or subsampling) event. In biological collections, the material sample is typically collected, and either preserved or destructively processed."
-materialSampleID comment,"An identifier for the MaterialSample (as opposed to a particular digital record of the material sample). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the materialSampleID globally unique."
-maximumDepthInMeters comment,"The greater depth of a range of depth below the local surface, in meters."
-maximumDistanceAboveSurfaceInMeters comment,"The greater distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation."
-maximumElevationInMeters comment,"The upper limit of the range of elevation (altitude, usually above sea level), in meters."
-measurementAccuracy comment,The description of the potential error associated with the measurementValue.
-measurementDeterminedBy comment,"A list (concatenated and separated) of names of people, groups, or organizations who determined the value of the MeasurementOrFact."
-measurementDeterminedDate comment,The date on which the MeasurementOrFact was made.
-measurementID comment,"An identifier for the MeasurementOrFact (information pertaining to measurements, facts, characteristics, or assertions). May be a global unique identifier or an identifier specific to the data set."
-measurementMethod comment,"A description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion."
-MeasurementOrFact comment,A measurement of or fact about an rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource).
-measurementRemarks comment,Comments or notes accompanying the MeasurementOrFact.
-measurementType comment,"The nature of the measurement, fact, characteristic, or assertion."
-measurementUnit comment,The units associated with the measurementValue.
-measurementValue comment,"The value of the measurement, fact, characteristic, or assertion."
-member comment,The full name of the lithostratigraphic member from which the cataloged item was collected.
-minimumDepthInMeters comment,"The lesser depth of a range of depth below the local surface, in meters."
-minimumDistanceAboveSurfaceInMeters comment,"The lesser distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation."
-minimumElevationInMeters comment,"The lower limit of the range of elevation (altitude, usually above sea level), in meters."
-month comment,The integer month in which the Event occurred.
-municipality comment,"The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location."
-nameAccordingTo comment,"The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin ""sensu"" or ""sec."" (from secundum, meaning ""according to""). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given."
-nameAccordingToID comment,An identifier for the source in which the specific taxon concept circumscription is defined or implied. See nameAccordingTo.
-namePublicationID (deprecated) comment,A resolvable globally unique identifier for the original publication of the scientificName.
-namePublishedIn comment,A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.
-namePublishedInID comment,An identifier for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.
-namePublishedInYear comment,The four-digit year in which the scientificName was published.
-nomenclaturalCode comment,The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed.
-nomenclaturalStatus comment,The status related to the original publication of the name and its conformance to the relevant rules of nomenclature. It is based essentially on an algorithm according to the business rules of the code. It requires no taxonomic opinion.
-Occurrence comment,An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time.
-occurrenceAttributes (deprecated) comment,"A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the Occurrence."
-occurrenceDetails (deprecated) comment,"A reference (publication, URI) to the most detailed information available about the Occurrence."
-occurrenceID comment,"An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique."
-OccurrenceMeasurement (deprecated) comment,The category of information pertaining to measurements accociated with an occurrence.
-occurrenceMeasurementAccuracy (deprecated) comment,The description of the error associated with the occurrenceAttributeValue.
-occurrenceMeasurementDeterminedBy (deprecated) comment,The agent responsible for having determined the value of the measurement or characteristic of the occurrence.
-occurrenceMeasurementDeterminedDate (deprecated) comment,"The date on which the the measurement or characteristic of the occurrence was made. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."
-occurrenceMeasurementID (deprecated) comment,An identifier for the occurrence attribute. May be a global unique identifier or an identifier specific to the data set.
-occurrenceMeasurementRemarks (deprecated) comment,Comments or notes accompanying the measurement or characteristic of the occurrence.
-occurrenceMeasurementType (deprecated) comment,The nature of the measurement or characteristic of the occurrence. Recommended best practice is to use a controlled vocabulary.
-occurrenceMeasurementUnit (deprecated) comment,The units for the value of the measurement or characteristic of the occurrence. Recommended best practice is to use International System of Units (SI) units.
-occurrenceMeasurementValue (deprecated) comment,The value of the measurement or characteristic of the occurrence.
-occurrenceRemarks comment,Comments or notes about the Occurrence.
-occurrenceStatus comment,A statement about the presence or absence of a Taxon at a Location.
-order comment,The full scientific name of the order in which the taxon is classified.
-Organism comment,A particular organism or defined group of organisms considered to be taxonomically homogeneous.
-organismID comment,An identifier for the Organism instance (as opposed to a particular digital record of the Organism). May be a globally unique identifier or an identifier specific to the data set.
-organismName comment,A textual name or label assigned to an Organism instance.
-organismQuantity comment,A number or enumeration value for the quantity of organisms.
-organismQuantityType comment,The type of quantification system used for the quantity of organisms.
-organismRemarks comment,Comments or notes about the Organism instance.
-organismScope comment,A description of the kind of Organism instance. Can be used to indicate whether the Organism instance represents a discrete organism or if it represents a particular type of aggregation.
-originalNameUsage comment,"The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names."
-originalNameUsageID comment,An identifier for the name usage (documented meaning of the name according to a source) in which the terminal element of the scientificName was originally established under the rules of the associated nomenclaturalCode.
-otherCatalogNumbers comment,"A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same Occurrence, whether in the current or any other data set or collection."
-ownerInstitutionCode comment,The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.
-parentEventID comment,An identifier for the broader Event that groups this and potentially other Events.
-parentNameUsage comment,"The full name, with authorship and date information if known, of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName."
-parentNameUsageID comment,"An identifier for the name usage (documented meaning of the name according to a source) of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName."
-phylum comment,The full scientific name of the phylum or division in which the taxon is classified.
-pointRadiusSpatialFit comment,"The ratio of the area of the point-radius (decimalLatitude, decimalLongitude, coordinateUncertaintyInMeters) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given point-radius does not completely contain the original representation. The pointRadiusSpatialFit is undefined (and should be left empty) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the pointRadiusSpatialFit is 1."
-preparations comment,A list (concatenated and separated) of preparations and preservation methods for a specimen.
-PreservedSpecimen comment,A specimen that has been preserved.
-PreviousIdentifications (deprecated) comment,A list (concatenated and separated) of previous ScientificNames to which the sample was identified.
-previousIdentifications comment,A list (concatenated and separated) of previous assignments of names to the Organism.
-recordedBy comment,"A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first."
-recordNumber comment,"An identifier given to the Occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number."
-RelatedBasisOfRecord (deprecated) comment,The nature of the related resource. Recommended best practice is to use the same controlled vocabulary as for basisOfRecord.
-relatedResourceID comment,"An identifier for a related resource (the object, rather than the subject of the relationship)."
-relatedResourceType (deprecated) comment,The type of the related resource. Recommended best practice is to use a controlled vocabulary.
-relationshipAccordingTo comment,"The source (person, organization, publication, reference) establishing the relationship between the two resources."
-relationshipEstablishedDate comment,The date-time on which the relationship between the two resources was established.
-relationshipOfResource comment,The relationship of the subject (identified by resourceID) to the object (identified by relatedResourceID).
-relationshipRemarks comment,Comments or notes about the relationship between the two resources.
-reproductiveCondition comment,The reproductive condition of the biological individual(s) represented in the Occurrence.
-resourceID comment,An identifier for the resource that is the subject of the relationship.
-ResourceRelationship comment,A relationship of one rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource) to another.
-resourceRelationshipID comment,"An identifier for an instance of relationship between one resource (the subject) and another (relatedResource, the object)."
-Sample (deprecated) comment,"Container class for information about the results of a sampling event (specimen, observation, etc.)"
-SampleAttribute (deprecated) comment,Container class for information about attributes related to a given sample.
-SampleAttributeAccuracy (deprecated) comment,The description of the error associated with the SampleAttributeValue.
-SampleAttributeDeterminedBy (deprecated) comment,The agent responsible for having determined the value of the measurement or characteristic of the sample.
-SampleAttributeDeterminedDate (deprecated) comment,The date on which the the measurement or characteristic of the sample was made.
-SampleAttributeRemarks (deprecated) comment,Comments or notes accompanying the measurement or characteristic of the sample.
-SampleAttributeUnit (deprecated) comment,The units for the value of the measurement or characteristic of the sample. Recommended best practice is to use International System of Units (SI) units.
-SampleAttributeValue (deprecated) comment,The value of the measurement or characteristic of the sample.
-SampleRemarks (deprecated) comment,Comments or notes about the sample or record.
-sampleSizeUnit comment,"The unit of measurement of the size (time duration, length, area, or volume) of a sample in a sampling event."
-sampleSizeValue comment,"A numeric value for a measurement of the size (time duration, length, area, or volume) of a sample in a sampling event."
-SamplingAttributeID (deprecated) comment,An identifier for the sampling attribute. May be a global unique identifier or an identifier specific to the data set.
-SamplingAttributeType (deprecated) comment,The nature of the measurement or characteristic of the sample. Recommended best practice is to use a controlled vocabulary.
-samplingEffort comment,The amount of effort expended during an Event.
-SamplingEvent (deprecated) comment,Container class for information about the conditions and methods of acquisition of samples.
-SamplingEventAttributes (deprecated) comment,A list (concatenated and separated) of additional measurements or characteristics of the sampling event.
-SamplingEventID (deprecated) comment,An identifier for the sampling event. May be a global unique identifier or an identifier specific to the data set.
-SamplingEventRemarks (deprecated) comment,Comments or notes about the sampling event.
-SamplingLocation (deprecated) comment,Container class for information about the location where a sampling event occurred.
-SamplingLocationID (deprecated) comment,An identifier for the sampling location. May be a global unique identifier or an identifier specific to the data set.
-SamplingLocationRemarks (deprecated) comment,Comments or notes about the sampling location.
-samplingProtocol comment,"The names of, references to, or descriptions of the methods or protocols used during an Event."
-scientificName comment,"The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term."
-scientificNameAuthorship comment,The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.
-scientificNameID comment,An identifier for the nomenclatural (not taxonomic) details of a scientific name.
-scientificNameRank (deprecated) comment,The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.
-sex comment,The sex of the biological individual(s) represented in the Occurrence.
-specificEpithet comment,The name of the first or species epithet of the scientificName.
-startDayOfYear comment,"The earliest integer day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366)."
-StartTimeOfDay (deprecated) comment,"The time of day when the event began, expressed as decimal hours from midnight, local time."
-stateProvince comment,"The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs."
-subgenus comment,The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.
-Taxon comment,A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.
-taxonAccordingTo (deprecated) comment,"Information about the authorship of this taxon concept which uses the scientificName in their sense (secundum, sensu). Could be a publication (identification key), institution or team of individuals."
-taxonAttributes (deprecated) comment,"A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the taxon."
-taxonConceptID comment,An identifier for the taxonomic concept to which the record refers - not for the nomenclatural details of a taxon.
-TaxonID (deprecated) comment,A global unique identifier for the taxon (name in a classification).
-taxonID comment,An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set.
-taxonNameID (deprecated) comment,A unique identifier for the scientificName.
-taxonomicStatus comment,"The status of the use of the scientificName as a label for a taxon. Requires taxonomic opinion to define the scope of a taxon. Rules of priority then are used to define the taxonomic status of the nomenclature contained in that scope, combined with the experts opinion. It must be linked to a specific taxonomic reference that defines the concept."
-taxonRank comment,The taxonomic rank of the most specific name in the scientificName.
-taxonRemarks comment,Comments or notes about the taxon or name.
-typeStatus comment,"A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject."
-verbatimCoordinates comment,"The verbatim original spatial coordinates of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem."
-verbatimCoordinateSystem comment,The coordinate format for the verbatimLatitude and verbatimLongitude or the verbatimCoordinates of the Location.
-verbatimDepth comment,The original description of the depth below the local surface.
-verbatimElevation comment,"The original description of the elevation (altitude, usually above sea level) of the Location."
-verbatimEventDate comment,The verbatim original representation of the date and time information for an Event.
-verbatimLatitude comment,"The verbatim original latitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem."
-verbatimLocality comment,The original textual description of the place.
-verbatimLongitude comment,"The verbatim original longitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem."
-verbatimScientificNameRank (deprecated) comment,The taxonomic rank of the most specific name in the scientificName as it appears in the original record.
-verbatimSRS comment,"The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in verbatimLatitude and verbatimLongitude, or verbatimCoordinates are based."
-verbatimTaxonRank comment,The taxonomic rank of the most specific name in the scientificName as it appears in the original record.
-vernacularName comment,A common or vernacular name.
-waterBody comment,The name of the water body in which the Location occurs.
-year comment,"The four-digit year in which the Event occurred, according to the Common Era Calendar."
-pathway comment,The process by which an Organism came to be in a given place at a given time.
-degreeOfEstablishment comment,"The degree to which an Organism survives, reproduces, and expands its range at the given place and time."
-recordedByID comment,"A list (concatenated and separated) of the globally unique identifier for the person, people, groups, or organizations responsible for recording the original Occurrence."
-verticalDatum comment,The vertical datum used as the reference upon which the values in the elevation terms are based.
-verbatimIdentification comment,A string representing the taxonomic identification as it appeared in the original record.
-identifiedByID comment,"A list (concatenated and separated) of the globally unique identifier for the person, people, groups, or organizations responsible for assigning the Taxon to the subject."
-subfamily comment,The full scientific name of the subfamily in which the taxon is classified.
-genericName comment,The genus part of the scientificName without authorship.
-infragenericEpithet comment,The infrageneric part of a binomial name at ranks above species but below genus.
-cultivarEpithet comment,"Part of the name of a cultivar, cultivar group or grex that follows the scientific name."
-relationshipOfResourceID comment,An identifier for the relationship type (predicate) that connects the subject identified by resourceID to its object identified by relatedResourceID.
-MaterialCitation comment,"A reference to or citation of one, a part of, or multiple specimens in scholarly publications."
+term_localName comment,http://rs.tdwg.org/dwc/terms/term_localName,rdfs_comment
+acceptedNameUsage comment,http://rs.tdwg.org/dwc/terms/acceptedNameUsage,"The full name, with authorship and date information if known, of the currently valid (zoological) or accepted (botanical) taxon."
+acceptedNameUsageID comment,http://rs.tdwg.org/dwc/terms/acceptedNameUsageID,An identifier for the name usage (documented meaning of the name according to a source) of the currently valid (zoological) or accepted (botanical) taxon.
+acceptedScientificName (deprecated) comment,http://rs.tdwg.org/dwc/terms/acceptedScientificName,The currently valid (zoological) or accepted (botanical) name for the scientificName.
+acceptedScientificNameID (deprecated) comment,http://rs.tdwg.org/dwc/terms/acceptedScientificNameID,A unique identifier for the acceptedScientificName.
+AcceptedTaxon (deprecated) comment,http://rs.tdwg.org/dwc/terms/AcceptedTaxon,The currently valid (zoological) or accepted (botanical) name for the ScientificName.
+AcceptedTaxonID (deprecated) comment,http://rs.tdwg.org/dwc/terms/AcceptedTaxonID,A global unique identifier for the parent to the AcceptedTaxon.
+acceptedTaxonID (deprecated) comment,http://rs.tdwg.org/dwc/terms/acceptedTaxonID,An identifier for the name of the currently valid (zoological) or accepted (botanical) taxon. See acceptedTaxon.
+acceptedTaxonName (deprecated) comment,http://rs.tdwg.org/dwc/terms/acceptedTaxonName,The currently valid (zoological) or accepted (botanical) name for the scientificName.
+acceptedTaxonNameID (deprecated) comment,http://rs.tdwg.org/dwc/terms/acceptedTaxonNameID,A unique identifier for the acceptedTaxonName.
+AccessConstraints (deprecated) comment,http://rs.tdwg.org/dwc/terms/AccessConstraints,A description of constraints on the use of the data as shared or access to further data that is not shared.
+accordingTo (deprecated) comment,http://rs.tdwg.org/dwc/terms/accordingTo,Abstract term to attribute information to a source.
+accuracy (deprecated) comment,http://rs.tdwg.org/dwc/terms/accuracy,Abstract term to capture error information about a measurement or fact.
+associatedMedia comment,http://rs.tdwg.org/dwc/terms/associatedMedia,"A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of media associated with the Occurrence."
+associatedOccurrences comment,http://rs.tdwg.org/dwc/terms/associatedOccurrences,A list (concatenated and separated) of identifiers of other Occurrence records and their associations to this Occurrence.
+associatedOrganisms comment,http://rs.tdwg.org/dwc/terms/associatedOrganisms,A list (concatenated and separated) of identifiers of other Organisms and the associations of this Organism to each of them.
+associatedReferences comment,http://rs.tdwg.org/dwc/terms/associatedReferences,"A list (concatenated and separated) of identifiers (publication, bibliographic reference, global unique identifier, URI) of literature associated with the Occurrence."
+associatedSequences comment,http://rs.tdwg.org/dwc/terms/associatedSequences,"A list (concatenated and separated) of identifiers (publication, global unique identifier, URI) of genetic sequence information associated with the Occurrence."
+associatedTaxa comment,http://rs.tdwg.org/dwc/terms/associatedTaxa,A list (concatenated and separated) of identifiers or names of taxa and the associations of this Occurrence to each of them.
+basionym (deprecated) comment,http://rs.tdwg.org/dwc/terms/basionym,The basionym (botany) or basonym (bacteriology) of the scientificName.
+basionymID (deprecated) comment,http://rs.tdwg.org/dwc/terms/basionymID,A unique identifier for the basionym (botany) or basonym (bacteriology) of the scientificName.
+basisOfRecord comment,http://rs.tdwg.org/dwc/terms/basisOfRecord,The specific nature of the data record.
+bed comment,http://rs.tdwg.org/dwc/terms/bed,The full name of the lithostratigraphic bed from which the cataloged item was collected.
+behavior comment,http://rs.tdwg.org/dwc/terms/behavior,The behavior shown by the subject at the time the Occurrence was recorded.
+binomial (deprecated) comment,http://rs.tdwg.org/dwc/terms/binomial,The combination of genus and first (species) epithet of the scientificName.
+catalogNumber comment,http://rs.tdwg.org/dwc/terms/catalogNumber,An identifier (preferably unique) for the record within the data set or collection.
+CatalogNumberNumeric (deprecated) comment,http://rs.tdwg.org/dwc/terms/CatalogNumberNumeric,"The numeric value of the catalogNumber, used to facilitate numerical sorting and searching by ranges."
+class comment,http://rs.tdwg.org/dwc/terms/class,The full scientific name of the class in which the taxon is classified.
+collectionCode comment,http://rs.tdwg.org/dwc/terms/collectionCode,"The name, acronym, coden, or initialism identifying the collection or data set from which the record was derived."
+collectionID comment,http://rs.tdwg.org/dwc/terms/collectionID,An identifier for the collection or dataset from which the record was derived.
+continent comment,http://rs.tdwg.org/dwc/terms/continent,The name of the continent in which the Location occurs.
+coordinatePrecision comment,http://rs.tdwg.org/dwc/terms/coordinatePrecision,A decimal representation of the precision of the coordinates given in the decimalLatitude and decimalLongitude.
+coordinateUncertaintyInMeters comment,http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters,"The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Leave the value empty if the uncertainty is unknown, cannot be estimated, or is not applicable (because there are no coordinates). Zero is not a valid value for this term."
+country comment,http://rs.tdwg.org/dwc/terms/country,The name of the country or major administrative unit in which the Location occurs.
+countryCode comment,http://rs.tdwg.org/dwc/terms/countryCode,The standard code for the country in which the Location occurs.
+county comment,http://rs.tdwg.org/dwc/terms/county,"The full, unabbreviated name of the next smaller administrative region than stateProvince (county, shire, department, etc.) in which the Location occurs."
+dataGeneralizations comment,http://rs.tdwg.org/dwc/terms/dataGeneralizations,Actions taken to make the shared data less specific or complete than in its original form. Suggests that alternative data of higher quality may be available on request.
+Dataset (deprecated) comment,http://rs.tdwg.org/dwc/terms/Dataset,The category of information pertaining to a logical set of records.
+datasetID comment,http://rs.tdwg.org/dwc/terms/datasetID,An identifier for the set of data. May be a global unique identifier or an identifier specific to a collection or institution.
+datasetName comment,http://rs.tdwg.org/dwc/terms/datasetName,The name identifying the data set from which the record was derived.
+dateIdentified comment,http://rs.tdwg.org/dwc/terms/dateIdentified,The date on which the subject was determined as representing the Taxon.
+day comment,http://rs.tdwg.org/dwc/terms/day,The integer day of the month on which the Event occurred.
+decimalLatitude comment,http://rs.tdwg.org/dwc/terms/decimalLatitude,"The geographic latitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are north of the Equator, negative values are south of it. Legal values lie between -90 and 90, inclusive."
+decimalLongitude comment,http://rs.tdwg.org/dwc/terms/decimalLongitude,"The geographic longitude (in decimal degrees, using the spatial reference system given in geodeticDatum) of the geographic center of a Location. Positive values are east of the Greenwich Meridian, negative values are west of it. Legal values lie between -180 and 180, inclusive."
+disposition comment,http://rs.tdwg.org/dwc/terms/disposition,The current state of a specimen with respect to the collection identified in collectionCode or collectionID.
+DwCType (deprecated) comment,http://rs.tdwg.org/dwc/terms/DwCType,"The set of classes specified by the Darwin Core Type Vocabulary, used to categorize the nature or genre of the resource."
+dynamicProperties comment,http://rs.tdwg.org/dwc/terms/dynamicProperties,"A list of additional measurements, facts, characteristics, or assertions about the record. Meant to provide a mechanism for structured content."
+earliestAgeOrLowestStage comment,http://rs.tdwg.org/dwc/terms/earliestAgeOrLowestStage,The full name of the earliest possible geochronologic age or lowest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.
+EarliestDateCollected (deprecated) comment,http://rs.tdwg.org/dwc/terms/EarliestDateCollected,"The earliest date-time in a period during which a event occurred. If the event is recorded as occurring at a single date-time, populate both EarliestDateCollected and LatestDateCollected with the same value. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."
+earliestEonOrLowestEonothem comment,http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem,"The full name of the earliest possible geochronologic eon or lowest chrono-stratigraphic eonothem or the informal name (""Precambrian"") attributable to the stratigraphic horizon from which the cataloged item was collected."
+earliestEpochOrLowestSeries comment,http://rs.tdwg.org/dwc/terms/earliestEpochOrLowestSeries,The full name of the earliest possible geochronologic epoch or lowest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.
+earliestEraOrLowestErathem comment,http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem,The full name of the earliest possible geochronologic era or lowest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.
+earliestPeriodOrLowestSystem comment,http://rs.tdwg.org/dwc/terms/earliestPeriodOrLowestSystem,The full name of the earliest possible geochronologic period or lowest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.
+endDayOfYear comment,http://rs.tdwg.org/dwc/terms/endDayOfYear,"The latest integer day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366)."
+EndTimeOfDay (deprecated) comment,http://rs.tdwg.org/dwc/terms/EndTimeOfDay,"The time of day when the event ended, expressed as decimal hours from midnight, local time."
+establishmentMeans comment,http://rs.tdwg.org/dwc/terms/establishmentMeans,Statement about whether an organism or organisms have been introduced to a given place and time through the direct or indirect activity of modern humans.
+Event comment,http://rs.tdwg.org/dwc/terms/Event,An action that occurs at some location during some time.
+EventAttribute (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttribute,Container class for information about attributes related to a given sampling event.
+EventAttributeAccuracy (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttributeAccuracy,The description of the error associated with the EventAttributeValue.
+EventAttributeDeterminedBy (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttributeDeterminedBy,The agent responsible for having determined the value of the measurement or characteristic of the sampling event.
+EventAttributeDeterminedDate (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttributeDeterminedDate,The date on which the the measurement or characteristic of the sampling event was made.
+EventAttributeID (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttributeID,An identifier for the event attribute. May be a global unique identifier or an identifier specific to the data set.
+EventAttributeRemarks (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttributeRemarks,Comments or notes accompanying the measurement or characteristic of the sampling event.
+eventAttributes (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventAttributes,A list (concatenated and separated) of additional measurements or characteristics of the Event.
+EventAttributeType (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttributeType,The nature of the measurement or characteristic of the sampling event. Recommended best practice is to use a controlled vocabulary.
+EventAttributeUnit (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttributeUnit,The units for the value of the measurement or characteristic of the sampling event. Recommended best practice is to use International System of Units (SI) units.
+EventAttributeValue (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventAttributeValue,The value of the measurement or characteristic of the sampling event.
+eventDate comment,http://rs.tdwg.org/dwc/terms/eventDate,"The date-time or interval during which an Event occurred. For occurrences, this is the date-time when the event was recorded. Not suitable for a time in a geological context."
+eventID comment,http://rs.tdwg.org/dwc/terms/eventID,An identifier for the set of information associated with an Event (something that occurs at a place and time). May be a global unique identifier or an identifier specific to the data set.
+EventMeasurement (deprecated) comment,http://rs.tdwg.org/dwc/terms/EventMeasurement,The category of information pertaining to measurements associated with an event.
+eventMeasurementAccuracy (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventMeasurementAccuracy,The description of the error associated with the EventAttributeValue.
+eventMeasurementDeterminedBy (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventMeasurementDeterminedBy,The agent responsible for having determined the value of the measurement or characteristic of the event.
+eventMeasurementDeterminedDate (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventMeasurementDeterminedDate,"The date on which the the measurement or characteristic of the event was made. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."
+eventMeasurementID (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventMeasurementID,An identifier for the event attribute. May be a global unique identifier or an identifier specific to the data set.
+eventMeasurementRemarks (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventMeasurementRemarks,Comments or notes accompanying the measurement or characteristic of the event.
+eventMeasurementType (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventMeasurementType,The nature of the measurement or characteristic of the event. Recommended best practice is to use a controlled vocabulary.
+eventMeasurementUnit (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventMeasurementUnit,The units for the value of the measurement or characteristic of the event. Recommended best practice is to use International System of Units (SI) units.
+eventMeasurementValue (deprecated) comment,http://rs.tdwg.org/dwc/terms/eventMeasurementValue,The value of the measurement or characteristic of the event.
+eventRemarks comment,http://rs.tdwg.org/dwc/terms/eventRemarks,Comments or notes about the Event.
+eventTime comment,http://rs.tdwg.org/dwc/terms/eventTime,The time or interval during which an Event occurred.
+family comment,http://rs.tdwg.org/dwc/terms/family,The full scientific name of the family in which the taxon is classified.
+fieldNotes comment,http://rs.tdwg.org/dwc/terms/fieldNotes,"One of a) an indicator of the existence of, b) a reference to (publication, URI), or c) the text of notes taken in the field about the Event."
+fieldNumber comment,http://rs.tdwg.org/dwc/terms/fieldNumber,An identifier given to the event in the field. Often serves as a link between field notes and the Event.
+footprintSpatialFit comment,http://rs.tdwg.org/dwc/terms/footprintSpatialFit,"The ratio of the area of the footprint (footprintWKT) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given footprint does not completely contain the original representation. The footprintSpatialFit is undefined (and should be left empty) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the footprintSpatialFit is 1."
+footprintSRS comment,http://rs.tdwg.org/dwc/terms/footprintSRS,"The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geometry given in footprintWKT is based."
+footprintWKT comment,http://rs.tdwg.org/dwc/terms/footprintWKT,"A Well-Known Text (WKT) representation of the shape (footprint, geometry) that defines the Location. A Location may have both a point-radius representation (see decimalLatitude) and a footprint representation, and they may differ from each other."
+formation comment,http://rs.tdwg.org/dwc/terms/formation,The full name of the lithostratigraphic formation from which the cataloged item was collected.
+FossilSpecimen comment,http://rs.tdwg.org/dwc/terms/FossilSpecimen,A preserved specimen that is a fossil.
+Generalizations (deprecated) comment,http://rs.tdwg.org/dwc/terms/Generalizations,Actions taken to make the data as shared less specific or complete than in its original form. Suggests that alternative data of highly quality may be available on request.
+genus comment,http://rs.tdwg.org/dwc/terms/genus,The full scientific name of the genus in which the taxon is classified.
+geodeticDatum comment,http://rs.tdwg.org/dwc/terms/geodeticDatum,"The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which the geographic coordinates given in decimalLatitude and decimalLongitude as based."
+GeologicalContext comment,http://rs.tdwg.org/dwc/terms/GeologicalContext,"Geological information, such as stratigraphy, that qualifies a region or place."
+geologicalContextID comment,http://rs.tdwg.org/dwc/terms/geologicalContextID,"An identifier for the set of information associated with a GeologicalContext (the location within a geological context, such as stratigraphy). May be a global unique identifier or an identifier specific to the data set."
+georeferencedBy comment,http://rs.tdwg.org/dwc/terms/georeferencedBy,"A list (concatenated and separated) of names of people, groups, or organizations who determined the georeference (spatial representation) for the Location."
+georeferencedDate comment,http://rs.tdwg.org/dwc/terms/georeferencedDate,The date on which the Location was georeferenced.
+georeferenceProtocol comment,http://rs.tdwg.org/dwc/terms/georeferenceProtocol,"A description or reference to the methods used to determine the spatial footprint, coordinates, and uncertainties."
+georeferenceRemarks comment,http://rs.tdwg.org/dwc/terms/georeferenceRemarks,"Notes or comments about the spatial description determination, explaining assumptions made in addition or opposition to the those formalized in the method referred to in georeferenceProtocol."
+georeferenceSources comment,http://rs.tdwg.org/dwc/terms/georeferenceSources,"A list (concatenated and separated) of maps, gazetteers, or other resources used to georeference the Location, described specifically enough to allow anyone in the future to use the same resources."
+georeferenceVerificationStatus comment,http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus,A categorical description of the extent to which the georeference has been verified to represent the best possible spatial description for the Location of the Occurrence.
+group comment,http://rs.tdwg.org/dwc/terms/group,The full name of the lithostratigraphic group from which the cataloged item was collected.
+habitat comment,http://rs.tdwg.org/dwc/terms/habitat,A category or description of the habitat in which the Event occurred.
+higherClassification comment,http://rs.tdwg.org/dwc/terms/higherClassification,A list (concatenated and separated) of taxa names terminating at the rank immediately superior to the taxon referenced in the taxon record.
+higherGeography comment,http://rs.tdwg.org/dwc/terms/higherGeography,A list (concatenated and separated) of geographic names less specific than the information captured in the locality term.
+higherGeographyID comment,http://rs.tdwg.org/dwc/terms/higherGeographyID,An identifier for the geographic region within which the Location occurred.
+HigherTaxon (deprecated) comment,http://rs.tdwg.org/dwc/terms/HigherTaxon,A list (concatenated and separated) of the names for the taxonomic ranks less specific than the ScientificName.
+higherTaxonconceptID (deprecated) comment,http://rs.tdwg.org/dwc/terms/higherTaxonconceptID,A unique identifier for the taxon concept less specific than that given in the taxonConceptID.
+HigherTaxonID (deprecated) comment,http://rs.tdwg.org/dwc/terms/HigherTaxonID,A global unique identifier for the parent to the taxon.
+higherTaxonName (deprecated) comment,http://rs.tdwg.org/dwc/terms/higherTaxonName,A list (concatenated and separated) of the names for the taxonomic ranks less specific than that given in the scientificName.
+higherTaxonNameID (deprecated) comment,http://rs.tdwg.org/dwc/terms/higherTaxonNameID,A unique identifier for the name of the next higher rank than the scientificName in a taxonomic classification. See higherTaxonName.
+highestBiostratigraphicZone comment,http://rs.tdwg.org/dwc/terms/highestBiostratigraphicZone,The full name of the highest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.
+HumanObservation comment,http://rs.tdwg.org/dwc/terms/HumanObservation,An output of a human observation process.
+Identification comment,http://rs.tdwg.org/dwc/terms/Identification,"A taxonomic determination (e.g., the assignment to a taxon)."
+identificationAttributes (deprecated) comment,http://rs.tdwg.org/dwc/terms/identificationAttributes,"A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the Identification."
+identificationID comment,http://rs.tdwg.org/dwc/terms/identificationID,An identifier for the Identification (the body of information associated with the assignment of a scientific name). May be a global unique identifier or an identifier specific to the data set.
+identificationQualifier comment,http://rs.tdwg.org/dwc/terms/identificationQualifier,"A brief phrase or a standard term (""cf."", ""aff."") to express the determiner's doubts about the Identification."
+identificationReferences comment,http://rs.tdwg.org/dwc/terms/identificationReferences,"A list (concatenated and separated) of references (publication, global unique identifier, URI) used in the Identification."
+identificationRemarks comment,http://rs.tdwg.org/dwc/terms/identificationRemarks,Comments or notes about the Identification.
+identificationVerificationStatus comment,http://rs.tdwg.org/dwc/terms/identificationVerificationStatus,A categorical indicator of the extent to which the taxonomic identification has been verified to be correct.
+identifiedBy comment,http://rs.tdwg.org/dwc/terms/identifiedBy,"A list (concatenated and separated) of names of people, groups, or organizations who assigned the Taxon to the subject."
+individualCount comment,http://rs.tdwg.org/dwc/terms/individualCount,The number of individuals present at the time of the Occurrence.
+individualID (deprecated) comment,http://rs.tdwg.org/dwc/terms/individualID,An identifier for an individual or named group of individual organisms represented in the Occurrence. Meant to accommodate resampling of the same individual or group for monitoring purposes. May be a global unique identifier or an identifier specific to a data set.
+informationWithheld comment,http://rs.tdwg.org/dwc/terms/informationWithheld,"Additional information that exists, but that has not been shared in the given record."
+infraspecificEpithet comment,http://rs.tdwg.org/dwc/terms/infraspecificEpithet,"The name of the lowest or terminal infraspecific epithet of the scientificName, excluding any rank designation."
+institutionCode comment,http://rs.tdwg.org/dwc/terms/institutionCode,The name (or acronym) in use by the institution having custody of the object(s) or information referred to in the record.
+institutionID comment,http://rs.tdwg.org/dwc/terms/institutionID,An identifier for the institution having custody of the object(s) or information referred to in the record.
+island comment,http://rs.tdwg.org/dwc/terms/island,The name of the island on or near which the Location occurs.
+islandGroup comment,http://rs.tdwg.org/dwc/terms/islandGroup,The name of the island group in which the Location occurs.
+kingdom comment,http://rs.tdwg.org/dwc/terms/kingdom,The full scientific name of the kingdom in which the taxon is classified.
+latestAgeOrHighestStage comment,http://rs.tdwg.org/dwc/terms/latestAgeOrHighestStage,The full name of the latest possible geochronologic age or highest chronostratigraphic stage attributable to the stratigraphic horizon from which the cataloged item was collected.
+LatestDateCollected (deprecated) comment,http://rs.tdwg.org/dwc/terms/LatestDateCollected,"The latest date-time in a period during which a event occurred. If the event is recorded as occurring at a single date-time, populate both EarliestDateCollected and LatestDateCollected with the same value. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."
+latestEonOrHighestEonothem comment,http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem,"The full name of the latest possible geochronologic eon or highest chrono-stratigraphic eonothem or the informal name (""Precambrian"") attributable to the stratigraphic horizon from which the cataloged item was collected."
+latestEpochOrHighestSeries comment,http://rs.tdwg.org/dwc/terms/latestEpochOrHighestSeries,The full name of the latest possible geochronologic epoch or highest chronostratigraphic series attributable to the stratigraphic horizon from which the cataloged item was collected.
+latestEraOrHighestErathem comment,http://rs.tdwg.org/dwc/terms/latestEraOrHighestErathem,The full name of the latest possible geochronologic era or highest chronostratigraphic erathem attributable to the stratigraphic horizon from which the cataloged item was collected.
+latestPeriodOrHighestSystem comment,http://rs.tdwg.org/dwc/terms/latestPeriodOrHighestSystem,The full name of the latest possible geochronologic period or highest chronostratigraphic system attributable to the stratigraphic horizon from which the cataloged item was collected.
+lifeStage comment,http://rs.tdwg.org/dwc/terms/lifeStage,The age class or life stage of the Organism(s) at the time the Occurrence was recorded.
+lithostratigraphicTerms comment,http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms,The combination of all litho-stratigraphic names for the rock from which the cataloged item was collected.
+LivingSpecimen comment,http://rs.tdwg.org/dwc/terms/LivingSpecimen,A specimen that is alive.
+locality comment,http://rs.tdwg.org/dwc/terms/locality,The specific description of the place.
+locationAccordingTo comment,http://rs.tdwg.org/dwc/terms/locationAccordingTo,"Information about the source of this Location information. Could be a publication (gazetteer), institution, or team of individuals."
+locationAttributes (deprecated) comment,http://rs.tdwg.org/dwc/terms/locationAttributes,"A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the location."
+locationID comment,http://rs.tdwg.org/dwc/terms/locationID,An identifier for the set of location information (data associated with dcterms:Location). May be a global unique identifier or an identifier specific to the data set.
+locationRemarks comment,http://rs.tdwg.org/dwc/terms/locationRemarks,Comments or notes about the Location.
+lowestBiostratigraphicZone comment,http://rs.tdwg.org/dwc/terms/lowestBiostratigraphicZone,The full name of the lowest possible geological biostratigraphic zone of the stratigraphic horizon from which the cataloged item was collected.
+MachineObservation comment,http://rs.tdwg.org/dwc/terms/MachineObservation,An output of a machine observation process.
+MaterialSample comment,http://rs.tdwg.org/dwc/terms/MaterialSample,"A physical result of a sampling (or subsampling) event. In biological collections, the material sample is typically collected, and either preserved or destructively processed."
+materialSampleID comment,http://rs.tdwg.org/dwc/terms/materialSampleID,"An identifier for the MaterialSample (as opposed to a particular digital record of the material sample). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the materialSampleID globally unique."
+maximumDepthInMeters comment,http://rs.tdwg.org/dwc/terms/maximumDepthInMeters,"The greater depth of a range of depth below the local surface, in meters."
+maximumDistanceAboveSurfaceInMeters comment,http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters,"The greater distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation."
+maximumElevationInMeters comment,http://rs.tdwg.org/dwc/terms/maximumElevationInMeters,"The upper limit of the range of elevation (altitude, usually above sea level), in meters."
+measurementAccuracy comment,http://rs.tdwg.org/dwc/terms/measurementAccuracy,The description of the potential error associated with the measurementValue.
+measurementDeterminedBy comment,http://rs.tdwg.org/dwc/terms/measurementDeterminedBy,"A list (concatenated and separated) of names of people, groups, or organizations who determined the value of the MeasurementOrFact."
+measurementDeterminedDate comment,http://rs.tdwg.org/dwc/terms/measurementDeterminedDate,The date on which the MeasurementOrFact was made.
+measurementID comment,http://rs.tdwg.org/dwc/terms/measurementID,"An identifier for the MeasurementOrFact (information pertaining to measurements, facts, characteristics, or assertions). May be a global unique identifier or an identifier specific to the data set."
+measurementMethod comment,http://rs.tdwg.org/dwc/terms/measurementMethod,"A description of or reference to (publication, URI) the method or protocol used to determine the measurement, fact, characteristic, or assertion."
+MeasurementOrFact comment,http://rs.tdwg.org/dwc/terms/MeasurementOrFact,A measurement of or fact about an rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource).
+measurementRemarks comment,http://rs.tdwg.org/dwc/terms/measurementRemarks,Comments or notes accompanying the MeasurementOrFact.
+measurementType comment,http://rs.tdwg.org/dwc/terms/measurementType,"The nature of the measurement, fact, characteristic, or assertion."
+measurementUnit comment,http://rs.tdwg.org/dwc/terms/measurementUnit,The units associated with the measurementValue.
+measurementValue comment,http://rs.tdwg.org/dwc/terms/measurementValue,"The value of the measurement, fact, characteristic, or assertion."
+member comment,http://rs.tdwg.org/dwc/terms/member,The full name of the lithostratigraphic member from which the cataloged item was collected.
+minimumDepthInMeters comment,http://rs.tdwg.org/dwc/terms/minimumDepthInMeters,"The lesser depth of a range of depth below the local surface, in meters."
+minimumDistanceAboveSurfaceInMeters comment,http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters,"The lesser distance in a range of distance from a reference surface in the vertical direction, in meters. Use positive values for locations above the surface, negative values for locations below. If depth measures are given, the reference surface is the location given by the depth, otherwise the reference surface is the location given by the elevation."
+minimumElevationInMeters comment,http://rs.tdwg.org/dwc/terms/minimumElevationInMeters,"The lower limit of the range of elevation (altitude, usually above sea level), in meters."
+month comment,http://rs.tdwg.org/dwc/terms/month,The integer month in which the Event occurred.
+municipality comment,http://rs.tdwg.org/dwc/terms/municipality,"The full, unabbreviated name of the next smaller administrative region than county (city, municipality, etc.) in which the Location occurs. Do not use this term for a nearby named place that does not contain the actual location."
+nameAccordingTo comment,http://rs.tdwg.org/dwc/terms/nameAccordingTo,"The reference to the source in which the specific taxon concept circumscription is defined or implied - traditionally signified by the Latin ""sensu"" or ""sec."" (from secundum, meaning ""according to""). For taxa that result from identifications, a reference to the keys, monographs, experts and other sources should be given."
+nameAccordingToID comment,http://rs.tdwg.org/dwc/terms/nameAccordingToID,An identifier for the source in which the specific taxon concept circumscription is defined or implied. See nameAccordingTo.
+namePublicationID (deprecated) comment,http://rs.tdwg.org/dwc/terms/namePublicationID,A resolvable globally unique identifier for the original publication of the scientificName.
+namePublishedIn comment,http://rs.tdwg.org/dwc/terms/namePublishedIn,A reference for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.
+namePublishedInID comment,http://rs.tdwg.org/dwc/terms/namePublishedInID,An identifier for the publication in which the scientificName was originally established under the rules of the associated nomenclaturalCode.
+namePublishedInYear comment,http://rs.tdwg.org/dwc/terms/namePublishedInYear,The four-digit year in which the scientificName was published.
+nomenclaturalCode comment,http://rs.tdwg.org/dwc/terms/nomenclaturalCode,The nomenclatural code (or codes in the case of an ambiregnal name) under which the scientificName is constructed.
+nomenclaturalStatus comment,http://rs.tdwg.org/dwc/terms/nomenclaturalStatus,The status related to the original publication of the name and its conformance to the relevant rules of nomenclature. It is based essentially on an algorithm according to the business rules of the code. It requires no taxonomic opinion.
+Occurrence comment,http://rs.tdwg.org/dwc/terms/Occurrence,An existence of an Organism (sensu http://rs.tdwg.org/dwc/terms/Organism) at a particular place at a particular time.
+occurrenceAttributes (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceAttributes,"A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the Occurrence."
+occurrenceDetails (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceDetails,"A reference (publication, URI) to the most detailed information available about the Occurrence."
+occurrenceID comment,http://rs.tdwg.org/dwc/terms/occurrenceID,"An identifier for the Occurrence (as opposed to a particular digital record of the occurrence). In the absence of a persistent global unique identifier, construct one from a combination of identifiers in the record that will most closely make the occurrenceID globally unique."
+OccurrenceMeasurement (deprecated) comment,http://rs.tdwg.org/dwc/terms/OccurrenceMeasurement,The category of information pertaining to measurements accociated with an occurrence.
+occurrenceMeasurementAccuracy (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceMeasurementAccuracy,The description of the error associated with the occurrenceAttributeValue.
+occurrenceMeasurementDeterminedBy (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceMeasurementDeterminedBy,The agent responsible for having determined the value of the measurement or characteristic of the occurrence.
+occurrenceMeasurementDeterminedDate (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceMeasurementDeterminedDate,"The date on which the the measurement or characteristic of the occurrence was made. Recommended best practice is to use an encoding scheme, such as ISO 8601:2004(E)."
+occurrenceMeasurementID (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceMeasurementID,An identifier for the occurrence attribute. May be a global unique identifier or an identifier specific to the data set.
+occurrenceMeasurementRemarks (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceMeasurementRemarks,Comments or notes accompanying the measurement or characteristic of the occurrence.
+occurrenceMeasurementType (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceMeasurementType,The nature of the measurement or characteristic of the occurrence. Recommended best practice is to use a controlled vocabulary.
+occurrenceMeasurementUnit (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceMeasurementUnit,The units for the value of the measurement or characteristic of the occurrence. Recommended best practice is to use International System of Units (SI) units.
+occurrenceMeasurementValue (deprecated) comment,http://rs.tdwg.org/dwc/terms/occurrenceMeasurementValue,The value of the measurement or characteristic of the occurrence.
+occurrenceRemarks comment,http://rs.tdwg.org/dwc/terms/occurrenceRemarks,Comments or notes about the Occurrence.
+occurrenceStatus comment,http://rs.tdwg.org/dwc/terms/occurrenceStatus,A statement about the presence or absence of a Taxon at a Location.
+order comment,http://rs.tdwg.org/dwc/terms/order,The full scientific name of the order in which the taxon is classified.
+Organism comment,http://rs.tdwg.org/dwc/terms/Organism,A particular organism or defined group of organisms considered to be taxonomically homogeneous.
+organismID comment,http://rs.tdwg.org/dwc/terms/organismID,An identifier for the Organism instance (as opposed to a particular digital record of the Organism). May be a globally unique identifier or an identifier specific to the data set.
+organismName comment,http://rs.tdwg.org/dwc/terms/organismName,A textual name or label assigned to an Organism instance.
+organismQuantity comment,http://rs.tdwg.org/dwc/terms/organismQuantity,A number or enumeration value for the quantity of organisms.
+organismQuantityType comment,http://rs.tdwg.org/dwc/terms/organismQuantityType,The type of quantification system used for the quantity of organisms.
+organismRemarks comment,http://rs.tdwg.org/dwc/terms/organismRemarks,Comments or notes about the Organism instance.
+organismScope comment,http://rs.tdwg.org/dwc/terms/organismScope,A description of the kind of Organism instance. Can be used to indicate whether the Organism instance represents a discrete organism or if it represents a particular type of aggregation.
+originalNameUsage comment,http://rs.tdwg.org/dwc/terms/originalNameUsage,"The taxon name, with authorship and date information if known, as it originally appeared when first established under the rules of the associated nomenclaturalCode. The basionym (botany) or basonym (bacteriology) of the scientificName or the senior/earlier homonym for replaced names."
+originalNameUsageID comment,http://rs.tdwg.org/dwc/terms/originalNameUsageID,An identifier for the name usage (documented meaning of the name according to a source) in which the terminal element of the scientificName was originally established under the rules of the associated nomenclaturalCode.
+otherCatalogNumbers comment,http://rs.tdwg.org/dwc/terms/otherCatalogNumbers,"A list (concatenated and separated) of previous or alternate fully qualified catalog numbers or other human-used identifiers for the same Occurrence, whether in the current or any other data set or collection."
+ownerInstitutionCode comment,http://rs.tdwg.org/dwc/terms/ownerInstitutionCode,The name (or acronym) in use by the institution having ownership of the object(s) or information referred to in the record.
+parentEventID comment,http://rs.tdwg.org/dwc/terms/parentEventID,An identifier for the broader Event that groups this and potentially other Events.
+parentNameUsage comment,http://rs.tdwg.org/dwc/terms/parentNameUsage,"The full name, with authorship and date information if known, of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName."
+parentNameUsageID comment,http://rs.tdwg.org/dwc/terms/parentNameUsageID,"An identifier for the name usage (documented meaning of the name according to a source) of the direct, most proximate higher-rank parent taxon (in a classification) of the most specific element of the scientificName."
+phylum comment,http://rs.tdwg.org/dwc/terms/phylum,The full scientific name of the phylum or division in which the taxon is classified.
+pointRadiusSpatialFit comment,http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit,"The ratio of the area of the point-radius (decimalLatitude, decimalLongitude, coordinateUncertaintyInMeters) to the area of the true (original, or most specific) spatial representation of the Location. Legal values are 0, greater than or equal to 1, or undefined. A value of 1 is an exact match or 100% overlap. A value of 0 should be used if the given point-radius does not completely contain the original representation. The pointRadiusSpatialFit is undefined (and should be left empty) if the original representation is a point without uncertainty and the given georeference is not that same point (without uncertainty). If both the original and the given georeference are the same point, the pointRadiusSpatialFit is 1."
+preparations comment,http://rs.tdwg.org/dwc/terms/preparations,A list (concatenated and separated) of preparations and preservation methods for a specimen.
+PreservedSpecimen comment,http://rs.tdwg.org/dwc/terms/PreservedSpecimen,A specimen that has been preserved.
+PreviousIdentifications (deprecated) comment,http://rs.tdwg.org/dwc/terms/PreviousIdentifications,A list (concatenated and separated) of previous ScientificNames to which the sample was identified.
+previousIdentifications comment,http://rs.tdwg.org/dwc/terms/previousIdentifications,A list (concatenated and separated) of previous assignments of names to the Organism.
+recordedBy comment,http://rs.tdwg.org/dwc/terms/recordedBy,"A list (concatenated and separated) of names of people, groups, or organizations responsible for recording the original Occurrence. The primary collector or observer, especially one who applies a personal identifier (recordNumber), should be listed first."
+recordNumber comment,http://rs.tdwg.org/dwc/terms/recordNumber,"An identifier given to the Occurrence at the time it was recorded. Often serves as a link between field notes and an Occurrence record, such as a specimen collector's number."
+RelatedBasisOfRecord (deprecated) comment,http://rs.tdwg.org/dwc/terms/RelatedBasisOfRecord,The nature of the related resource. Recommended best practice is to use the same controlled vocabulary as for basisOfRecord.
+relatedResourceID comment,http://rs.tdwg.org/dwc/terms/relatedResourceID,"An identifier for a related resource (the object, rather than the subject of the relationship)."
+relatedResourceType (deprecated) comment,http://rs.tdwg.org/dwc/terms/relatedResourceType,The type of the related resource. Recommended best practice is to use a controlled vocabulary.
+relationshipAccordingTo comment,http://rs.tdwg.org/dwc/terms/relationshipAccordingTo,"The source (person, organization, publication, reference) establishing the relationship between the two resources."
+relationshipEstablishedDate comment,http://rs.tdwg.org/dwc/terms/relationshipEstablishedDate,The date-time on which the relationship between the two resources was established.
+relationshipOfResource comment,http://rs.tdwg.org/dwc/terms/relationshipOfResource,The relationship of the subject (identified by resourceID) to the object (identified by relatedResourceID).
+relationshipRemarks comment,http://rs.tdwg.org/dwc/terms/relationshipRemarks,Comments or notes about the relationship between the two resources.
+reproductiveCondition comment,http://rs.tdwg.org/dwc/terms/reproductiveCondition,The reproductive condition of the biological individual(s) represented in the Occurrence.
+resourceID comment,http://rs.tdwg.org/dwc/terms/resourceID,An identifier for the resource that is the subject of the relationship.
+ResourceRelationship comment,http://rs.tdwg.org/dwc/terms/ResourceRelationship,A relationship of one rdfs:Resource (http://www.w3.org/2000/01/rdf-schema#Resource) to another.
+resourceRelationshipID comment,http://rs.tdwg.org/dwc/terms/resourceRelationshipID,"An identifier for an instance of relationship between one resource (the subject) and another (relatedResource, the object)."
+Sample (deprecated) comment,http://rs.tdwg.org/dwc/terms/Sample,"Container class for information about the results of a sampling event (specimen, observation, etc.)"
+SampleAttribute (deprecated) comment,http://rs.tdwg.org/dwc/terms/SampleAttribute,Container class for information about attributes related to a given sample.
+SampleAttributeAccuracy (deprecated) comment,http://rs.tdwg.org/dwc/terms/SampleAttributeAccuracy,The description of the error associated with the SampleAttributeValue.
+SampleAttributeDeterminedBy (deprecated) comment,http://rs.tdwg.org/dwc/terms/SampleAttributeDeterminedBy,The agent responsible for having determined the value of the measurement or characteristic of the sample.
+SampleAttributeDeterminedDate (deprecated) comment,http://rs.tdwg.org/dwc/terms/SampleAttributeDeterminedDate,The date on which the the measurement or characteristic of the sample was made.
+SampleAttributeRemarks (deprecated) comment,http://rs.tdwg.org/dwc/terms/SampleAttributeRemarks,Comments or notes accompanying the measurement or characteristic of the sample.
+SampleAttributeUnit (deprecated) comment,http://rs.tdwg.org/dwc/terms/SampleAttributeUnit,The units for the value of the measurement or characteristic of the sample. Recommended best practice is to use International System of Units (SI) units.
+SampleAttributeValue (deprecated) comment,http://rs.tdwg.org/dwc/terms/SampleAttributeValue,The value of the measurement or characteristic of the sample.
+SampleRemarks (deprecated) comment,http://rs.tdwg.org/dwc/terms/SampleRemarks,Comments or notes about the sample or record.
+sampleSizeUnit comment,http://rs.tdwg.org/dwc/terms/sampleSizeUnit,"The unit of measurement of the size (time duration, length, area, or volume) of a sample in a sampling event."
+sampleSizeValue comment,http://rs.tdwg.org/dwc/terms/sampleSizeValue,"A numeric value for a measurement of the size (time duration, length, area, or volume) of a sample in a sampling event."
+SamplingAttributeID (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingAttributeID,An identifier for the sampling attribute. May be a global unique identifier or an identifier specific to the data set.
+SamplingAttributeType (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingAttributeType,The nature of the measurement or characteristic of the sample. Recommended best practice is to use a controlled vocabulary.
+samplingEffort comment,http://rs.tdwg.org/dwc/terms/samplingEffort,The amount of effort expended during an Event.
+SamplingEvent (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingEvent,Container class for information about the conditions and methods of acquisition of samples.
+SamplingEventAttributes (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingEventAttributes,A list (concatenated and separated) of additional measurements or characteristics of the sampling event.
+SamplingEventID (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingEventID,An identifier for the sampling event. May be a global unique identifier or an identifier specific to the data set.
+SamplingEventRemarks (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingEventRemarks,Comments or notes about the sampling event.
+SamplingLocation (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingLocation,Container class for information about the location where a sampling event occurred.
+SamplingLocationID (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingLocationID,An identifier for the sampling location. May be a global unique identifier or an identifier specific to the data set.
+SamplingLocationRemarks (deprecated) comment,http://rs.tdwg.org/dwc/terms/SamplingLocationRemarks,Comments or notes about the sampling location.
+samplingProtocol comment,http://rs.tdwg.org/dwc/terms/samplingProtocol,"The names of, references to, or descriptions of the methods or protocols used during an Event."
+scientificName comment,http://rs.tdwg.org/dwc/terms/scientificName,"The full scientific name, with authorship and date information if known. When forming part of an Identification, this should be the name in lowest level taxonomic rank that can be determined. This term should not contain identification qualifications, which should instead be supplied in the IdentificationQualifier term."
+scientificNameAuthorship comment,http://rs.tdwg.org/dwc/terms/scientificNameAuthorship,The authorship information for the scientificName formatted according to the conventions of the applicable nomenclaturalCode.
+scientificNameID comment,http://rs.tdwg.org/dwc/terms/scientificNameID,An identifier for the nomenclatural (not taxonomic) details of a scientific name.
+scientificNameRank (deprecated) comment,http://rs.tdwg.org/dwc/terms/scientificNameRank,The taxonomic rank of the most specific name in the scientificName. Recommended best practice is to use a controlled vocabulary.
+sex comment,http://rs.tdwg.org/dwc/terms/sex,The sex of the biological individual(s) represented in the Occurrence.
+specificEpithet comment,http://rs.tdwg.org/dwc/terms/specificEpithet,The name of the first or species epithet of the scientificName.
+startDayOfYear comment,http://rs.tdwg.org/dwc/terms/startDayOfYear,"The earliest integer day of the year on which the Event occurred (1 for January 1, 365 for December 31, except in a leap year, in which case it is 366)."
+StartTimeOfDay (deprecated) comment,http://rs.tdwg.org/dwc/terms/StartTimeOfDay,"The time of day when the event began, expressed as decimal hours from midnight, local time."
+stateProvince comment,http://rs.tdwg.org/dwc/terms/stateProvince,"The name of the next smaller administrative region than country (state, province, canton, department, region, etc.) in which the Location occurs."
+subgenus comment,http://rs.tdwg.org/dwc/terms/subgenus,The full scientific name of the subgenus in which the taxon is classified. Values should include the genus to avoid homonym confusion.
+Taxon comment,http://rs.tdwg.org/dwc/terms/Taxon,A group of organisms (sensu http://purl.obolibrary.org/obo/OBI_0100026) considered by taxonomists to form a homogeneous unit.
+taxonAccordingTo (deprecated) comment,http://rs.tdwg.org/dwc/terms/taxonAccordingTo,"Information about the authorship of this taxon concept which uses the scientificName in their sense (secundum, sensu). Could be a publication (identification key), institution or team of individuals."
+taxonAttributes (deprecated) comment,http://rs.tdwg.org/dwc/terms/taxonAttributes,"A list (concatenated and separated) of additional measurements, facts, characteristics, or assertions about the taxon."
+taxonConceptID comment,http://rs.tdwg.org/dwc/terms/taxonConceptID,An identifier for the taxonomic concept to which the record refers - not for the nomenclatural details of a taxon.
+TaxonID (deprecated) comment,http://rs.tdwg.org/dwc/terms/TaxonID,A global unique identifier for the taxon (name in a classification).
+taxonID comment,http://rs.tdwg.org/dwc/terms/taxonID,An identifier for the set of taxon information (data associated with the Taxon class). May be a global unique identifier or an identifier specific to the data set.
+taxonNameID (deprecated) comment,http://rs.tdwg.org/dwc/terms/taxonNameID,A unique identifier for the scientificName.
+taxonomicStatus comment,http://rs.tdwg.org/dwc/terms/taxonomicStatus,"The status of the use of the scientificName as a label for a taxon. Requires taxonomic opinion to define the scope of a taxon. Rules of priority then are used to define the taxonomic status of the nomenclature contained in that scope, combined with the experts opinion. It must be linked to a specific taxonomic reference that defines the concept."
+taxonRank comment,http://rs.tdwg.org/dwc/terms/taxonRank,The taxonomic rank of the most specific name in the scientificName.
+taxonRemarks comment,http://rs.tdwg.org/dwc/terms/taxonRemarks,Comments or notes about the taxon or name.
+typeStatus comment,http://rs.tdwg.org/dwc/terms/typeStatus,"A list (concatenated and separated) of nomenclatural types (type status, typified scientific name, publication) applied to the subject."
+verbatimCoordinates comment,http://rs.tdwg.org/dwc/terms/verbatimCoordinates,"The verbatim original spatial coordinates of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem."
+verbatimCoordinateSystem comment,http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem,The coordinate format for the verbatimLatitude and verbatimLongitude or the verbatimCoordinates of the Location.
+verbatimDepth comment,http://rs.tdwg.org/dwc/terms/verbatimDepth,The original description of the depth below the local surface.
+verbatimElevation comment,http://rs.tdwg.org/dwc/terms/verbatimElevation,"The original description of the elevation (altitude, usually above sea level) of the Location."
+verbatimEventDate comment,http://rs.tdwg.org/dwc/terms/verbatimEventDate,The verbatim original representation of the date and time information for an Event.
+verbatimLatitude comment,http://rs.tdwg.org/dwc/terms/verbatimLatitude,"The verbatim original latitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem."
+verbatimLocality comment,http://rs.tdwg.org/dwc/terms/verbatimLocality,The original textual description of the place.
+verbatimLongitude comment,http://rs.tdwg.org/dwc/terms/verbatimLongitude,"The verbatim original longitude of the Location. The coordinate ellipsoid, geodeticDatum, or full Spatial Reference System (SRS) for these coordinates should be stored in verbatimSRS and the coordinate system should be stored in verbatimCoordinateSystem."
+verbatimScientificNameRank (deprecated) comment,http://rs.tdwg.org/dwc/terms/verbatimScientificNameRank,The taxonomic rank of the most specific name in the scientificName as it appears in the original record.
+verbatimSRS comment,http://rs.tdwg.org/dwc/terms/verbatimSRS,"The ellipsoid, geodetic datum, or spatial reference system (SRS) upon which coordinates given in verbatimLatitude and verbatimLongitude, or verbatimCoordinates are based."
+verbatimTaxonRank comment,http://rs.tdwg.org/dwc/terms/verbatimTaxonRank,The taxonomic rank of the most specific name in the scientificName as it appears in the original record.
+vernacularName comment,http://rs.tdwg.org/dwc/terms/vernacularName,A common or vernacular name.
+waterBody comment,http://rs.tdwg.org/dwc/terms/waterBody,The name of the water body in which the Location occurs.
+year comment,http://rs.tdwg.org/dwc/terms/year,"The four-digit year in which the Event occurred, according to the Common Era Calendar."
+pathway comment,http://rs.tdwg.org/dwc/terms/pathway,The process by which an Organism came to be in a given place at a given time.
+degreeOfEstablishment comment,http://rs.tdwg.org/dwc/terms/degreeOfEstablishment,"The degree to which an Organism survives, reproduces, and expands its range at the given place and time."
+recordedByID comment,http://rs.tdwg.org/dwc/terms/recordedByID,"A list (concatenated and separated) of the globally unique identifier for the person, people, groups, or organizations responsible for recording the original Occurrence."
+verticalDatum comment,http://rs.tdwg.org/dwc/terms/verticalDatum,The vertical datum used as the reference upon which the values in the elevation terms are based.
+verbatimIdentification comment,http://rs.tdwg.org/dwc/terms/verbatimIdentification,A string representing the taxonomic identification as it appeared in the original record.
+identifiedByID comment,http://rs.tdwg.org/dwc/terms/identifiedByID,"A list (concatenated and separated) of the globally unique identifier for the person, people, groups, or organizations responsible for assigning the Taxon to the subject."
+subfamily comment,http://rs.tdwg.org/dwc/terms/subfamily,The full scientific name of the subfamily in which the taxon is classified.
+genericName comment,http://rs.tdwg.org/dwc/terms/genericName,The genus part of the scientificName without authorship.
+infragenericEpithet comment,http://rs.tdwg.org/dwc/terms/infragenericEpithet,The infrageneric part of a binomial name at ranks above species but below genus.
+cultivarEpithet comment,http://rs.tdwg.org/dwc/terms/cultivarEpithet,"Part of the name of a cultivar, cultivar group or grex that follows the scientific name."
+relationshipOfResourceID comment,http://rs.tdwg.org/dwc/terms/relationshipOfResourceID,An identifier for the relationship type (predicate) that connects the subject identified by resourceID to its object identified by relatedResourceID.
+MaterialCitation comment,http://rs.tdwg.org/dwc/terms/MaterialCitation,"A reference to or citation of one, a part of, or multiple specimens in scholarly publications."
