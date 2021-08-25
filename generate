@@ -5,22 +5,26 @@ csvtool -t COMMA -u TAB namedcol term_localName,term_deprecated,label terms-for-
         | awk -F$'\t' 'BEGIN{OFS="	";} { print $1 ($2=="true"?" (deprecated)":"") " label", "http://rs.tdwg.org/dwc/terms/" $1, $3 }' \
         | csvtool -t TAB -u , cat - \
         | grep -v ,$ \
+        | grep -v 'deprecated' \
         > dwc_labels.en.csv
 
 csvtool -t COMMA -u TAB namedcol term_localName,term_deprecated,rdfs_comment terms-for-translation.csv \
         | awk -F$'\t' 'BEGIN{OFS="	";} { print $1 ($2=="true"?" (deprecated)":"") " comment", "http://rs.tdwg.org/dwc/terms/" $1, $3 }' \
         | csvtool -t TAB -u , cat - \
         | grep -v ,$ \
+        | grep -v 'deprecated' \
         > dwc_comments.en.csv
 
 csvtool -t COMMA -u TAB namedcol term_localName,term_deprecated,dcterms_description terms-for-translation.csv \
         | awk -F$'\t' 'BEGIN{OFS="	";} { print $1 ($2=="true"?" (deprecated)":"") " description", "http://rs.tdwg.org/dwc/terms/" $1, $3 }' \
         | csvtool -t TAB -u , cat - \
         | grep -v ,$ \
+        | grep -v 'deprecated' \
         > dwc_descriptions.en.csv
 
 csvtool -t COMMA -u TAB namedcol term_localName,term_deprecated,examples terms-for-translation.csv \
         | awk -F$'\t' 'BEGIN{OFS="	";} { print $1 ($2=="true"?" (deprecated)":"") " examples", "http://rs.tdwg.org/dwc/terms/" $1, $3 }' \
         | csvtool -t TAB -u , cat - \
         | grep -v ,$ \
+        | grep -v 'deprecated' \
         > dwc_examples.en.csv
