@@ -1,4 +1,5 @@
 #!/bin/zsh -e
+#
 
 csvtool -t COMMA -u TAB namedcol term_localName,term_deprecated,label terms-for-translation.csv \
         | awk -F$'\t' 'BEGIN{OFS="	";} { print $1 ($2=="true"?" (deprecated)":"") " label", "http://rs.tdwg.org/dwc/terms/" $1, $3 }' \
