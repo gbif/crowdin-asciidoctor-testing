@@ -1,0 +1,291 @@
+term_localName label,label
+acceptedNameUsage label,Accepted Name Usage
+acceptedNameUsageID label,Accepted Name Usage ID
+acceptedScientificName (deprecated) label,Accepted Scientific Name
+acceptedScientificNameID (deprecated) label,Accepted Scientific Name ID
+AcceptedTaxon (deprecated) label,Accepted Taxon
+AcceptedTaxonID (deprecated) label,Accepted Taxon ID
+acceptedTaxonID (deprecated) label,Accepted Taxon ID
+acceptedTaxonName (deprecated) label,Accepted Taxon Name
+acceptedTaxonNameID (deprecated) label,Accepted Taxon Name ID
+AccessConstraints (deprecated) label,Access Constraints
+accordingTo (deprecated) label,According To
+accuracy (deprecated) label,Accuracy
+associatedMedia label,Associated Media
+associatedOccurrences label,Associated Occurrences
+associatedOrganisms label,Associated Organisms
+associatedReferences label,Associated References
+associatedSequences label,Associated Sequences
+associatedTaxa label,Associated Taxa
+basionym (deprecated) label,Basionym
+basionymID (deprecated) label,Basionym ID
+basisOfRecord label,Basis of Record
+bed label,Bed
+behavior label,Behavior
+binomial (deprecated) label,Binomial
+catalogNumber label,Catalog Number
+CatalogNumberNumeric (deprecated) label,Catalog Number Numeric
+class label,Class
+collectionCode label,Collection Code
+collectionID label,Collection ID
+continent label,Continent
+coordinatePrecision label,Coordinate Precision
+coordinateUncertaintyInMeters label,Coordinate Uncertainty In Meters
+country label,Country
+countryCode label,Country Code
+county label,County
+dataGeneralizations label,Data Generalizations
+Dataset (deprecated) label,Dataset
+datasetID label,Dataset ID
+datasetName label,Dataset Name
+dateIdentified label,Date Identified
+day label,Day
+decimalLatitude label,Decimal Latitude
+decimalLongitude label,Decimal Longitude
+disposition label,Disposition
+DwCType (deprecated) label,Darwin Core Type
+dynamicProperties label,Dynamic Properties
+earliestAgeOrLowestStage label,Earliest Age Or Lowest Stage
+EarliestDateCollected (deprecated) label,Earliest Date Collected
+earliestEonOrLowestEonothem label,Earliest Eon Or Lowest Eonothem
+earliestEpochOrLowestSeries label,Earliest Epoch Or Lowest Series
+earliestEraOrLowestErathem label,Earliest Era Or Lowest Erathem
+earliestPeriodOrLowestSystem label,Earliest Period Or Lowest System
+endDayOfYear label,End Day Of Year
+EndTimeOfDay (deprecated) label,End Time of Day
+establishmentMeans label,Establishment Means
+Event label,Event
+EventAttribute (deprecated) label,Event Attribute
+EventAttributeAccuracy (deprecated) label,Event Attribute Accuracy
+EventAttributeDeterminedBy (deprecated) label,Event Attribute Determined By
+EventAttributeDeterminedDate (deprecated) label,Event Attribute Determined Date
+EventAttributeID (deprecated) label,Event Attribute ID
+EventAttributeRemarks (deprecated) label,Event Attribute Remarks
+eventAttributes (deprecated) label,Event Attributes
+EventAttributeType (deprecated) label,Event Attribute Type
+EventAttributeUnit (deprecated) label,Event Attribute Unit
+EventAttributeValue (deprecated) label,Event Attribute
+eventDate label,Event Date
+eventID label,Event ID
+EventMeasurement (deprecated) label,Event Measurement
+eventMeasurementAccuracy (deprecated) label,Event Measurement Accuracy
+eventMeasurementDeterminedBy (deprecated) label,Event Measurement Determined By
+eventMeasurementDeterminedDate (deprecated) label,Event Measurement Determined Date
+eventMeasurementID (deprecated) label,Event Measurement ID
+eventMeasurementRemarks (deprecated) label,Event Measurement Remarks
+eventMeasurementType (deprecated) label,Event Measurement Type
+eventMeasurementUnit (deprecated) label,Event Measurement Unit
+eventMeasurementValue (deprecated) label,Event Measurement Value
+eventRemarks label,Event Remarks
+eventTime label,Event Time
+family label,Family
+fieldNotes label,Field Notes
+fieldNumber label,Field Number
+footprintSpatialFit label,Footprint Spatial Fit
+footprintSRS label,Footprint SRS
+footprintWKT label,Footprint WKT
+formation label,Formation
+FossilSpecimen label,Fossil Specimen
+Generalizations (deprecated) label,Generalizations
+genus label,Genus
+geodeticDatum label,Geodetic Datum
+GeologicalContext label,Geological Context
+geologicalContextID label,Geological Context ID
+georeferencedBy label,Georeferenced By
+georeferencedDate label,Georeferenced Date
+georeferenceProtocol label,Georeference Protocol
+georeferenceRemarks label,Georeference Remarks
+georeferenceSources label,Georeference Sources
+georeferenceVerificationStatus label,Georeference Verification Status
+group label,Group
+habitat label,Habitat
+higherClassification label,Higher Classification
+higherGeography label,Higher Geography
+higherGeographyID label,Higher Geography ID
+HigherTaxon (deprecated) label,Higher Taxon
+higherTaxonconceptID (deprecated) label,Higher Taxon Concept ID
+HigherTaxonID (deprecated) label,Higher Taxon ID
+higherTaxonName (deprecated) label,Higher Taxon Name
+higherTaxonNameID (deprecated) label,Higher Taxon Name ID
+highestBiostratigraphicZone label,Highest Biostratigraphic Zone
+HumanObservation label,Human Observation
+Identification label,Identification
+identificationAttributes (deprecated) label,Identification Attributes
+identificationID label,Identification ID
+identificationQualifier label,Identification Qualifier
+identificationReferences label,Identification References
+identificationRemarks label,Identification Remarks
+identificationVerificationStatus label,Identification Verification Status
+identifiedBy label,Identified By
+individualCount label,Individual Count
+individualID (deprecated) label,Individual ID
+informationWithheld label,Information Withheld
+infraspecificEpithet label,Infraspecific Epithet
+institutionCode label,Institution Code
+institutionID label,Institution ID
+island label,Island
+islandGroup label,Island Group
+kingdom label,Kingdom
+latestAgeOrHighestStage label,Latest AgeOr Highest Stage
+LatestDateCollected (deprecated) label,Latest Date Collected
+latestEonOrHighestEonothem label,Latest Eon Or Highest Eonothem
+latestEpochOrHighestSeries label,Latest Epoch Or Highest Series
+latestEraOrHighestErathem label,Latest Era Or Highest Erathem
+latestPeriodOrHighestSystem label,Latest Period Or Highest System
+lifeStage label,Life Stage
+lithostratigraphicTerms label,Lithostratigraphic Terms
+LivingSpecimen label,Living Specimen
+locality label,Locality
+locationAccordingTo label,Location According To
+locationAttributes (deprecated) label,Location Attributes
+locationID label,Location ID
+locationRemarks label,Location Remarks
+lowestBiostratigraphicZone label,Lowest Biostratigraphic Zone
+MachineObservation label,Machine Observation
+MaterialSample label,Material Sample
+materialSampleID label,Material Sample ID
+maximumDepthInMeters label,Maximum Depth In Meters
+maximumDistanceAboveSurfaceInMeters label,Maximum Distance Above Surface In Meters
+maximumElevationInMeters label,Maximum Elevation In Meters
+measurementAccuracy label,Measurement Accuracy
+measurementDeterminedBy label,Measurement Determined By
+measurementDeterminedDate label,Measurement Determined Date
+measurementID label,Measurement ID
+measurementMethod label,Measurement Method
+MeasurementOrFact label,Measurement or Fact
+measurementRemarks label,Measurement Remarks
+measurementType label,Measurement Type
+measurementUnit label,Measurement Unit
+measurementValue label,Measurement Value
+member label,Member
+minimumDepthInMeters label,Minimum Depth In Meters
+minimumDistanceAboveSurfaceInMeters label,Minimum Distance Above Surface In Meters
+minimumElevationInMeters label,Minimum Elevation In Meters
+month label,Month
+municipality label,Municipality
+nameAccordingTo label,Name According To
+nameAccordingToID label,Name According To ID
+namePublicationID (deprecated) label,Name Publication ID
+namePublishedIn label,Name Published In
+namePublishedInID label,Name Published In ID
+namePublishedInYear label,Name Published In Year
+nomenclaturalCode label,Nomenclatural Code
+nomenclaturalStatus label,Nomenclatural Status
+Occurrence label,Occurrence
+occurrenceAttributes (deprecated) label,Occurrence Attributes
+occurrenceDetails (deprecated) label,Occurrence Details
+occurrenceID label,Occurrence ID
+OccurrenceMeasurement (deprecated) label,Occurrence Measurement
+occurrenceMeasurementAccuracy (deprecated) label,Occurrence Measurement Accuracy
+occurrenceMeasurementDeterminedBy (deprecated) label,Occurrence Measurement Determined By
+occurrenceMeasurementDeterminedDate (deprecated) label,Occurrence Measurement Determined Date
+occurrenceMeasurementID (deprecated) label,Occurrence Measurement ID
+occurrenceMeasurementRemarks (deprecated) label,Occurrence Measurement Remarks
+occurrenceMeasurementType (deprecated) label,Occurrence Measurement Type
+occurrenceMeasurementUnit (deprecated) label,Occurrence Measurement Unit
+occurrenceMeasurementValue (deprecated) label,Occurrence Measurement Value
+occurrenceRemarks label,Occurrence Remarks
+occurrenceStatus label,Occurrence Status
+order label,Order
+Organism label,Organism
+organismID label,Organism ID
+organismName label,Organism Name
+organismQuantity label,Organism Quantity
+organismQuantityType label,Organism Quantity Type
+organismRemarks label,Organism Remarks
+organismScope label,Organism Scope
+originalNameUsage label,Original Name Usage
+originalNameUsageID label,Original Name Usage ID
+otherCatalogNumbers label,Other Catalog Numbers
+ownerInstitutionCode label,Owner Institution Code
+parentEventID label,Parent Event ID
+parentNameUsage label,Parent Name Usage
+parentNameUsageID label,Parent Name Usage ID
+phylum label,Phylum
+pointRadiusSpatialFit label,Point Radius Spatial Fit
+preparations label,Preparations
+PreservedSpecimen label,Preserved Specimen
+PreviousIdentifications (deprecated) label,Previous Identifications
+previousIdentifications label,Previous Identifications
+recordedBy label,Recorded By
+recordNumber label,Record Number
+RelatedBasisOfRecord (deprecated) label,Related Basis of Record
+relatedResourceID label,Related Resource ID
+relatedResourceType (deprecated) label,Related Resource Type
+relationshipAccordingTo label,Relationship According To
+relationshipEstablishedDate label,Relationship Established Date
+relationshipOfResource label,Relationship Of Resource
+relationshipRemarks label,Relationship Remarks
+reproductiveCondition label,Reproductive Condition
+resourceID label,Resource ID
+ResourceRelationship label,Resource Relationship
+resourceRelationshipID label,Resource Relationship ID
+Sample (deprecated) label,Sample
+SampleAttribute (deprecated) label,Sample Attribute
+SampleAttributeAccuracy (deprecated) label,Sample Attribute Accuracy
+SampleAttributeDeterminedBy (deprecated) label,Sample Attribute Determined By
+SampleAttributeDeterminedDate (deprecated) label,Sample Attribute Determined Date
+SampleAttributeRemarks (deprecated) label,Sample Attribute Remarks
+SampleAttributeUnit (deprecated) label,Sample Attribute Unit
+SampleAttributeValue (deprecated) label,Sample Attribute Value
+SampleRemarks (deprecated) label,Sample Remarks
+sampleSizeUnit label,Sample Size Unit
+sampleSizeValue label,Sample Size Value
+SamplingAttributeID (deprecated) label,Sample Attribute ID
+SamplingAttributeType (deprecated) label,Sample Attribute Type
+samplingEffort label,Sampling Effort
+SamplingEvent (deprecated) label,Sampling Event
+SamplingEventAttributes (deprecated) label,Sampling Event Attributes
+SamplingEventID (deprecated) label,Sampling Event ID
+SamplingEventRemarks (deprecated) label,Sampling Event Remarks
+SamplingLocation (deprecated) label,Sampling Location
+SamplingLocationID (deprecated) label,Sampling Location ID
+SamplingLocationRemarks (deprecated) label,Sampling Location Remarks
+samplingProtocol label,Sampling Protocol
+scientificName label,Scientific Name
+scientificNameAuthorship label,Scientific Name Authorship
+scientificNameID label,Scientific Name ID
+scientificNameRank (deprecated) label,Scientific Name Rank
+sex label,Sex
+specificEpithet label,Specific Epithet
+startDayOfYear label,Start Day Of Year
+StartTimeOfDay (deprecated) label,Start Time of Day
+stateProvince label,State Province
+subgenus label,Subgenus
+Taxon label,Taxon
+taxonAccordingTo (deprecated) label,Taxon According To
+taxonAttributes (deprecated) label,Taxon Attributes
+taxonConceptID label,Taxon Concept ID
+TaxonID (deprecated) label,Taxon ID
+taxonID label,Taxon ID
+taxonNameID (deprecated) label,Taxon Name ID
+taxonomicStatus label,Taxonomic Status
+taxonRank label,Taxon Rank
+taxonRemarks label,Taxon Remarks
+typeStatus label,Type Status
+verbatimCoordinates label,Verbatim Coordinates
+verbatimCoordinateSystem label,Verbatim Coordinate System
+verbatimDepth label,Verbatim Depth
+verbatimElevation label,Verbatim Elevation
+verbatimEventDate label,Verbatim EventDate
+verbatimLatitude label,Verbatim Latitude
+verbatimLocality label,Verbatim Locality
+verbatimLongitude label,Verbatim Longitude
+verbatimScientificNameRank (deprecated) label,Verbatim Scientific Name Rank
+verbatimSRS label,Verbatim SRS
+verbatimTaxonRank label,Verbatim Taxon Rank
+vernacularName label,Vernacular Name
+waterBody label,Water Body
+year label,Year
+pathway label,Pathway
+degreeOfEstablishment label,Degree of Establishment
+recordedByID label,Recorded By ID
+verticalDatum label,Vertical Datum
+verbatimIdentification label,Verbatim Identification
+identifiedByID label,Identified By ID
+subfamily label,Subfamily
+genericName label,Generic Name
+infragenericEpithet label,Infrageneric Epithet
+cultivarEpithet label,Cultivar Epithet
+relationshipOfResourceID label,Relationship Of Resource ID
+MaterialCitation label,Material Citation

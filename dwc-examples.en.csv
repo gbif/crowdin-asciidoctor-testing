@@ -1,0 +1,203 @@
+term_localName examples,examples
+acceptedNameUsage examples,`Tamias minimus` (valid name for Eutamias minimus).
+acceptedNameUsageID examples,"`tsn:41107` (ITIS), `urn:lsid:ipni.org:names:320035-2` (IPNI), `2704179` (GBIF), `6W3C4` (COL)"
+associatedMedia examples,`https://arctos.database.museum/media/10520962 | https://arctos.database.museum/media/10520964`
+associatedOccurrences examples,"`""parasite collected from"":""https://arctos.database.museum/guid/MSB:Mamm:215895?seid=950760""`, `""encounter previous to"":""http://arctos.database.museum/guid/MSB:Mamm:292063?seid=3175067"" | ""encounter previous to"":""http://arctos.database.museum/guid/MSB:Mamm:292063?seid=3177393"" | ""encounter previous to"":""http://arctos.database.museum/guid/MSB:Mamm:292063?seid=3177394"" | ""encounter previous to"":""http://arctos.database.museum/guid/MSB:Mamm:292063?seid=3177392"" | ""encounter previous to"":""http://arctos.database.museum/guid/MSB:Mamm:292063?seid=3609139""`"
+associatedOrganisms examples,"`""sibling of"":""http://arctos.database.museum/guid/DMNS:Mamm:14171""`, `""parent of"":""http://arctos.database.museum/guid/MSB:Mamm:196208"" | ""parent of"":""http://arctos.database.museum/guid/MSB:Mamm:196523"" | ""sibling of"":""http://arctos.database.museum/guid/MSB:Mamm:142638""`"
+associatedReferences examples,"`http://www.sciencemag.org/cgi/content/abstract/322/5899/261`, `Christopher J. Conroy, Jennifer L. Neuwald. 2008. Phylogeographic study of the California vole, Microtus californicus Journal of Mammalogy, 89(3):755-767.`, `Steven R. Hoofer and Ronald A. Van Den Bussche. 2001. Phylogenetic Relationships of Plecotine Bats and Allies Based on Mitochondrial Ribosomal Sequences. Journal of Mammalogy 82(1):131-137. | Walker, Faith M., Jeffrey T. Foster, Kevin P. Drees, Carol L. Chambers. 2014. Spotted bat (Euderma maculatum) microsatellite discovery using illumina sequencing. Conservation Genetics Resources.`"
+associatedSequences examples,"`http://www.ncbi.nlm.nih.gov/nuccore/U34853.1`, `http://www.ncbi.nlm.nih.gov/nuccore/GU328060 | http://www.ncbi.nlm.nih.gov/nuccore/AF326093`"
+associatedTaxa examples,"`""host"":""Quercus alba""`, `""host"":""gbif.org/species/2879737""`,`""parasitoid of"":""Cyclocephala signaticollis"" | ""predator of"":""Apis mellifera""`"
+basisOfRecord examples,"`PreservedSpecimen`, `FossilSpecimen`, `LivingSpecimen`, `MaterialSample`, `Event`, `HumanObservation`, `MachineObservation`, `Taxon`, `Occurrence`, `MaterialCitation`"
+bed examples,`Harlem coal`
+behavior examples,"`roosting`, `foraging`, `running`"
+catalogNumber examples,"`145732`, `145732a`, `2008.1334`, `R-4313`"
+class examples,"`Mammalia`, `Hepaticopsida`"
+collectionCode examples,"`Mammals`, `Hildebrandt`, `EBIRD`, `VP`"
+collectionID examples,"`http://biocol.org/urn:lsid:biocol.org:col:1001`, `http://grbio.org/cool/p5fp-c036`"
+continent examples,"`Africa`, `Antarctica`, `Asia`, `Europe`, `North America`, `Oceania`, `South America`"
+coordinatePrecision examples,`0.00001` (normal GPS limit for decimal degrees). `0.000278` (nearest second). `0.01667` (nearest minute). `1.0` (nearest degree).
+coordinateUncertaintyInMeters examples,`30` (reasonable lower limit on or after 2020-05-01 of a GPS reading under good conditions if the actual precision was not recorded at the time). `100` (reasonable lower limit before 2020-05-01 of a GPS reading under good conditions if the actual precision was not recorded at the time). `71` (uncertainty for a UTM coordinate having 100 meter precision and a known spatial reference system).
+country examples,"`Denmark`, `Colombia`, `España`"
+countryCode examples,"`AR`, `SV`"
+county examples,"`Missoula`, `Los Lagos`, `Mataró`"
+dataGeneralizations examples,`Coordinates generalized from original GPS coordinates to the nearest half degree grid cell`.
+datasetID examples,`b15d4952-7d20-46f1-8a3e-556a512b04c5`
+datasetName examples,"`Grinnell Resurvey Mammals`, `Lacey Ctenomys Recaptures`"
+dateIdentified examples,`1963-03-08T14:07-0600` (8 Mar 1963 at 2:07pm in the time zone six hours earlier than UTC). `2009-02-20T08:40Z` (20 February 2009 8:40am UTC). `2018-08-29T15:19` (3:19pm local time on 29 August 2018). `1809-02-12` (some time during 12 February 1809). `1906-06` (some time in June 1906). `1971` (some time in the year 1971). `2007-03-01T13:00:00Z/2008-05-11T15:30:00Z` (some time during the interval between 1 March 2007 1pm UTC and 11 May 2008 3:30pm UTC). `1900/1909` (some time during the interval between the beginning of the year 1900 and the end of the year 1909). `2007-11-13/15` (some time in the interval between 13 November 2007 and 15 November 2007).
+day examples,"`9`, `28`"
+decimalLatitude examples,`-41.0983423`
+decimalLongitude examples,`-121.1761111`
+disposition examples,"`in collection`, `missing`, `voucher elsewhere`, `duplicates elsewhere`"
+dynamicProperties examples,"`{""heightInMeters"":1.5}`, `{""tragusLengthInMeters"":0.014, ""weightInGrams"":120}`, `{""natureOfID"":""expert identification"", ""identificationEvidence"":""cytochrome B sequence""}`, `{""relativeHumidity"":28, ""airTemperatureInCelsius"":22, ""sampleSizeInKilograms"":10}`, `{""aspectHeading"":277, ""slopeInDegrees"":6}`, `{""iucnStatus"":""vulnerable"", ""taxonDistribution"":""Neuquén, Argentina""}`"
+earliestAgeOrLowestStage examples,"`Atlantic`, `Boreal`, `Skullrockian`"
+earliestEonOrLowestEonothem examples,"`Phanerozoic`, `Proterozoic`"
+earliestEpochOrLowestSeries examples,"`Holocene`, `Pleistocene`, `Ibexian Series`"
+earliestEraOrLowestErathem examples,"`Cenozoic`, `Mesozoic`"
+earliestPeriodOrLowestSystem examples,"`Neogene`, `Tertiary`, `Quaternary`"
+endDayOfYear examples,"`1` (1 January). `32` (1 February). `366` (31 December). `365` (30 December in a leap year, 31 December in a non-leap year)."
+establishmentMeans examples,"`native`, `nativeReintroduced`, `introduced`, `introducedAssistedColonisation`, `vagrant`, `uncertain`"
+Event examples,A specimen collection process. A camera trap image capture.  A marine trawl.
+eventDate examples,`1963-03-08T14:07-0600` (8 Mar 1963 at 2:07pm in the time zone six hours earlier than UTC). `2009-02-20T08:40Z` (20 February 2009 8:40am UTC). `2018-08-29T15:19` (3:19pm local time on 29 August 2018). `1809-02-12` (some time during 12 February 1809). `1906-06` (some time in June 1906). `1971` (some time in the year 1971). `2007-03-01T13:00:00Z/2008-05-11T15:30:00Z` (some time during the interval between 1 March 2007 1pm UTC and 11 May 2008 3:30pm UTC). `1900/1909` (some time during the interval between the beginning of the year 1900 and the end of the year 1909). `2007-11-13/15` (some time in the interval between 13 November 2007 and 15 November 2007).
+eventID examples,`INBO:VIS:Ev:00009375`
+eventRemarks examples,`After the recent rains the river is nearly at flood stage.`
+eventTime examples,`14:07-0600` (2:07pm in the time zone six hours earlier than UTC). `08:40:21Z` (8:40:21am UTC). `13:00:00Z/15:30:00Z` (the interval between 1pm UTC and 3:30pm UTC).
+family examples,"`Felidae`, `Monocleaceae`"
+fieldNotes examples,`Notes available in the Grinnell-Miller Library.`
+fieldNumber examples,`RV Sol 87-03-08`
+footprintSpatialFit examples,"`0`, `1`, `1.5708`"
+footprintSRS examples,"`epsg:4326`, `GEOGCS[""GCS_WGS_1984"", DATUM[""D_WGS_1984"", SPHEROID[""WGS_1984"",6378137,298.257223563]], PRIMEM[""Greenwich"",0], UNIT[""Degree"",0.0174532925199433]]` (WKT for the standard WGS84 Spatial Reference System EPSG:4326)"
+footprintWKT examples,"`POLYGON ((10 20, 11 20, 11 21, 10 21, 10 20))` (the one-degree bounding box with opposite corners at longitude=10, latitude=20 and longitude=11, latitude=21)"
+formation examples,"`Notch Peak Formation`, `House Limestone`, `Fillmore Formation`"
+FossilSpecimen examples,A body fossil. A coprolite. A gastrolith. An ichnofossil. A piece of a petrified tree.
+genus examples,"`Puma`, `Monoclea`"
+geodeticDatum examples,"`EPSG:4326`, `WGS84`, `NAD27`, `Campo Inchauspe`, `European 1950`, `Clarke 1866`, `unknown`"
+GeologicalContext examples,A lithostratigraphic layer.
+geologicalContextID examples,`https://opencontext.org/subjects/e54377f7-4452-4315-b676-40679b10c4d9`
+georeferencedBy examples,"`Brad Millen (ROM)`, `Kristina Yamamoto | Janet Fang`"
+georeferencedDate examples,`1963-03-08T14:07-0600` (8 Mar 1963 at 2:07pm in the time zone six hours earlier than UTC). `2009-02-20T08:40Z` (20 February 2009 8:40am UTC). `2018-08-29T15:19` (3:19pm local time on 29 August 2018). `1809-02-12` (some time during 12 February 1809). `1906-06` (some time in June 1906). `1971` (some time in the year 1971). `2007-03-01T13:00:00Z/2008-05-11T15:30:00Z` (some time during the interval between 1 March 2007 1pm UTC and 11 May 2008 3:30pm UTC). `1900/1909` (some time during the interval between the beginning of the year 1900 and the end of the year 1909). `2007-11-13/15` (some time in the interval between 13 November 2007 and 15 November 2007).
+georeferenceProtocol examples,"`Georeferencing Quick Reference Guide (Zermoglio et al. 2020, https://doi.org/10.35035/e09p-h128)`"
+georeferenceRemarks examples,`Assumed distance by road (Hwy. 101)`.
+georeferenceSources examples,"`https://www.geonames.org/`, `USGS 1:24000 Florence Montana Quad 1967 | Terrametrics 2008 on Google Earth`, `GeoLocate`"
+georeferenceVerificationStatus examples,"`unable to georeference`, `requires georeference`, `requires verification`, `verified by data custodian`, `verified by contributor`"
+group examples,"`Bathurst`, `Lower Wealden`"
+habitat examples,"`oak savanna`, `pre-cordilleran steppe`"
+higherClassification examples,"`Plantae | Tracheophyta | Magnoliopsida | Ranunculales | Ranunculaceae | Ranunculus`, `Animalia`, `Animalia | Chordata | Vertebrata | Mammalia | Theria | Eutheria | Rodentia | Hystricognatha | Hystricognathi | Ctenomyidae | Ctenomyini | Ctenomys`"
+higherGeography examples,"`North Atlantic Ocean`. `South America | Argentina | Patagonia | Parque Nacional Nahuel Huapi | Neuquén | Los Lagos` (with accompanying values `South America` in continent, `Argentina` in country, `Neuquén` in stateProvince, and `Los Lagos` in county."
+higherGeographyID examples,"`http://vocab.getty.edu/tgn/1002002` (Antártida e Islas del Atlántico Sur, Territorio Nacional de la Tierra del Fuego, Argentina)."
+highestBiostratigraphicZone examples,`Blancan`
+HumanObservation examples,Evidence of an Occurrence taken from field notes or literature. A record of an Occurrence without physical evidence nor evidence captured with a machine.
+Identification examples,A subspecies determination of an organism.
+identificationID examples,`9992`
+identificationQualifier examples,"`aff. agrifolia var. oxyadenia` (for `Quercus aff. agrifolia var. oxyadenia` with accompanying values `Quercus` in genus, `agrifolia`  in specificEpithet, `oxyadenia`  in infraspecificEpithet, and `var.` in taxonRank. `cf. var. oxyadenia` for `Quercus agrifolia cf. var. oxyadenia` with accompanying values `Quercus` in genus, `agrifolia` in specificEpithet, `oxyadenia` in infraspecificEpithet, and `var.` in taxonRank."
+identificationReferences examples,"`Aves del Noroeste Patagonico. Christie et al. 2004.`, `Stebbins, R. Field Guide to Western Reptiles and Amphibians. 3rd Edition. 2003. | Irschick, D.J. and Shaffer, H.B. (1997). The polytypic species revisited: Morphological differentiation among tiger salamanders (Ambystoma tigrinum) (Amphibia: Caudata). Herpetologica, 53(1), 30-49.`"
+identificationRemarks examples,`Distinguished between Anthus correndera and Anthus hellmayri based on the comparative lengths of the uñas.`
+identificationVerificationStatus examples,"`0` (""unverified"" in HISPID/ABCD)."
+identifiedBy examples,"`James L. Patton`, `Theodore Pappenfuss | Robert Macey`"
+individualCount examples,"`0`, `1`, `25`"
+informationWithheld examples,"`location information not given for endangered species`, `collector identities withheld | ask about tissue samples`"
+infraspecificEpithet examples,"`concolor` (for scientificName ""Puma concolor concolor""), `oxyadenia` (for scientificName ""Quercus agrifolia var. oxyadenia""), `laxa` (for scientificName ""Cheilanthes hirta f. laxa""), `scaberrima` (for scientificName ""Indigofera charlieriana var. scaberrima"")."
+institutionCode examples,"`MVZ`, `FMNH`, `CLO`, `UCMP`"
+institutionID examples,"`http://biocol.org/urn:lsid:biocol.org:col:34777`, `http://grbio.org/cool/km06-gtbn`"
+island examples,"`Nosy Be`, `Bikini Atoll`, `Vancouver`, `Viti Levu`, `Zanzibar`"
+islandGroup examples,"`Alexander Archipelago`, `Archipiélago Diego Ramírez`, `Seychelles`"
+kingdom examples,"`Animalia`, `Archaea`, `Bacteria`, `Chromista`, `Fungi`, `Plantae`, `Protozoa`, `Viruses`"
+latestAgeOrHighestStage examples,"`Atlantic`, `Boreal`, `Skullrockian`"
+latestEonOrHighestEonothem examples,"`Phanerozoic`, `Proterozoic`"
+latestEpochOrHighestSeries examples,"`Holocene`, `Pleistocene`, `Ibexian Series`"
+latestEraOrHighestErathem examples,"`Cenozoic`, `Mesozoic`"
+latestPeriodOrHighestSystem examples,"`Neogene`, `Tertiary`, `Quaternary`"
+lifeStage examples,"`zygote`, `larva`, `juvenile`, `adult`, `seedling`, `flowering`, `fruiting`"
+lithostratigraphicTerms examples,`Pleistocene-Weichselien`
+LivingSpecimen examples,A living plant in a botanical garden. A living animal in a zoo.
+locality examples,"`Bariloche, 25 km NNE via Ruta Nacional 40 (=Ruta 237)`, `Queets Rainforest, Olympic National Park`"
+locationAccordingTo examples,"`Getty Thesaurus of Geographic Names`, `GADM`"
+locationID examples,`https://opencontext.org/subjects/768A875F-E205-4D0B-DE55-BAB7598D0FD1`
+locationRemarks examples,`under water since 2005`
+lowestBiostratigraphicZone examples,`Maastrichtian`
+MachineObservation examples,A photograph. A video. An audio recording. A remote sensing image. A Occurrence record based on telemetry.
+MaterialSample examples,A whole organism preserved in a collection. A part of an organism isolated for some purpose. A soil sample. A marine microbial sample.
+materialSampleID examples,`06809dc5-f143-459a-be1a-6f03e63fc083`
+maximumDepthInMeters examples,"`0`, `200`"
+maximumDistanceAboveSurfaceInMeters examples,"`-1.5` (below the surface). `4.2` (above the surface). For a 1.5 meter sediment core from the bottom of a lake (at depth 20m) at 300m elevation: verbatimElevation: `300m` minimumElevationInMeters: `300`, maximumElevationInMeters: `300`, verbatimDepth: `20m`, minimumDepthInMeters: `20`, maximumDepthInMeters: `20`, minimumDistanceAboveSurfaceInMeters: `0`, maximumDistanceAboveSurfaceInMeters: `-1.5`."
+maximumElevationInMeters examples,"`-205`, `1236`"
+measurementAccuracy examples,"`0.01`, `normal distribution with variation of 2 m`"
+measurementDeterminedBy examples,"`Rob Guralnick`, `Peter Desmet | Stijn Van Hoey`"
+measurementDeterminedDate examples,`1963-03-08T14:07-0600` (8 Mar 1963 at 2:07pm in the time zone six hours earlier than UTC). `2009-02-20T08:40Z` (20 February 2009 8:40am UTC). `2018-08-29T15:19` (3:19pm local time on 29 August 2018). `1809-02-12` (some time during 12 February 1809). `1906-06` (some time in June 1906). `1971` (some time in the year 1971). `2007-03-01T13:00:00Z/2008-05-11T15:30:00Z` (some time during the interval between 1 March 2007 1pm UTC and 11 May 2008 3:30pm UTC). `1900/1909` (some time during the interval between the beginning of the year 1900 and the end of the year 1909). `2007-11-13/15` (some time in the interval between 13 November 2007 and 15 November 2007).
+measurementID examples,`9c752d22-b09a-11e8-96f8-529269fb1459`
+measurementMethod examples,`minimum convex polygon around burrow entrances` (for a home range area). `barometric altimeter` (for an elevation).
+MeasurementOrFact examples,The weight of an organism in grams. The number of placental scars. Surface water temperature in Celsius.
+measurementRemarks examples,`tip of tail missing`
+measurementType examples,"`tail length`, `temperature`, `trap line length`, `survey area`, `trap type`"
+measurementUnit examples,"`mm`, `C`, `km`, `ha`"
+measurementValue examples,"`45`, `20`, `1`, `14.5`, `UV-light`"
+member examples,"`Lava Dam Member`, `Hellnmaria Member`"
+minimumDepthInMeters examples,"`0`, `100`"
+minimumDistanceAboveSurfaceInMeters examples,"`-1.5` (below the surface). `4.2` (above the surface). For a 1.5 meter sediment core from the bottom of a lake (at depth 20m) at 300m elevation: verbatimElevation: `300m` minimumElevationInMeters: `300`, maximumElevationInMeters: `300`, verbatimDepth: `20m`, minimumDepthInMeters: `20`, maximumDepthInMeters: `20`, minimumDistanceAboveSurfaceInMeters: `0`, maximumDistanceAboveSurfaceInMeters: `-1.5`."
+minimumElevationInMeters examples,"`-100`, `802`"
+month examples,`1` (January). `10` (October).
+municipality examples,"`Holzminden`, `Araçatuba`, `Ga-Segonyana`"
+nameAccordingTo examples,"`Franz NM, Cardona-Duque J (2013) Description of two new species and phylogenetic reassessment of Perelleschus Wibmer & O’Brien, 1986 (Coleoptera: Curculionidae), with a complete taxonomic concept history of Perelleschus sec. Franz & Cardona-Duque, 2013. Syst Biodivers. 11: 209–236.` (as the full citation of the Franz & Cardona-Duque (2013) in Perelleschus splendida sec. Franz & Cardona-Duque (2013))"
+nameAccordingToID examples,`https://doi.org/10.1016/S0269-915X(97)80026-2`
+namePublishedIn examples,"`Pearson O. P., and M. I. Christie. 1985. Historia Natural, 5(37):388`, `Forel, Auguste, Diagnosies provisoires de quelques espèces nouvelles de fourmis de Madagascar, récoltées par M. Grandidier., Annales de la Societe Entomologique de Belgique, Comptes-rendus des Seances 30, 1886`"
+namePublishedInYear examples,"`1915`, `2008`"
+nomenclaturalCode examples,"`ICN`, `ICZN`, `BC`, `ICNCP`, `BioCode`"
+nomenclaturalStatus examples,"`nom. ambig.`, `nom. illeg.`, `nom. subnud.`"
+Occurrence examples,A wolf pack on the shore of Kluane Lake in 1988. A virus in a plant leaf in the New York Botanical Garden at 15:29 on 2014-10-23. A fungus in Central Park in the summer of 1929.
+occurrenceID examples,"`http://arctos.database.museum/guid/MSB:Mamm:233627`, `000866d2-c177-4648-a200-ead4007051b9`, `urn:catalog:UWBM:Bird:89776`"
+occurrenceRemarks examples,`found dead on road`
+occurrenceStatus examples,"`present`, `absent`"
+order examples,"`Carnivora`, `Monocleales`"
+Organism examples,A specific bird. A specific wolf pack. A specific instance of a bacterial culture.
+organismID examples,`http://arctos.database.museum/guid/WNMU:Mamm:1249`
+organismName examples,"`Huberta`, `Boab Prison Tree`, `J pod`"
+organismQuantity examples,`27` (organismQuantity) with `individuals` (organismQuantityType). `12.5` (organismQuantity) with `% biomass` (organismQuantityType). `r` (organismQuantity) with `Braun Blanquet Scale` (organismQuantityType). `many` (organismQuantity) with `individuals` (organismQuantityType).
+organismQuantityType examples,`27` (organismQuantity) with `individuals` (organismQuantityType). `12.5` (organismQuantity) with `%biomass` (organismQuantityType). `r` (organismQuantity) with `BraunBlanquetScale` (organismQuantityType).
+organismRemarks examples,`One of a litter of six`
+organismScope examples,"`multicellular organism`, `virus`, `clone`, `pack`, `colony`"
+originalNameUsage examples,"`Pinus abies`, `Gasterosteus saltatrix Linnaeus 1768`"
+originalNameUsageID examples,"`tsn:41107` (ITIS), `urn:lsid:ipni.org:names:320035-2` (IPNI), `2704179` (GBIF), `6W3C4` (COL)"
+otherCatalogNumbers examples,"`FMNH:Mammal:1234`, `NPS YELLO6778 | MBG 33424`"
+ownerInstitutionCode examples,"`NPS`, `APN`, `InBio`"
+parentEventID examples,"`A1` (parentEventID to identify the main Whittaker Plot in nested samples, each with its own eventID - `A1:1`, `A1:2`)."
+parentNameUsage examples,"`Rubiaceae`, `Gruiformes`, `Testudinae`"
+parentNameUsageID examples,"`tsn:41074` (ITIS), `urn:lsid:ipni.org:names:30001404-2` (IPNI), `2704173` (GBIF), `6T8N` (COL)"
+phylum examples,`Chordata` (phylum). `Bryophyta` (division).
+pointRadiusSpatialFit examples,"`0`, `1`, `1.5708`"
+preparations examples,"`fossil`, `cast`, `photograph`, `DNA extract`, `skin | skull | skeleton`, `whole animal (ETOH) | tissue (EDTA)`"
+PreservedSpecimen examples,A plant on an herbarium sheet. A cataloged lot of fish in a jar.
+previousIdentifications examples,"`Chalepidae`, `Pinus abies`, `Anthus sp., field ID by G. Iglesias | Anthus correndera, expert ID by C. Cicero 2009-02-12 based on morphology`"
+recordedBy examples,`José E. Crespo`. `Oliver P. Pearson | Anita K. Pearson` (where the value in recordNumber `OPP 7101` corresponds to the collector number for the specimen in the field catalog of Oliver P. Pearson).
+recordNumber examples,`OPP 7101`
+relatedResourceID examples,`dc609808-b09b-11e8-96f8-529269fb1459`
+relationshipAccordingTo examples,`Julie Woodruff`
+relationshipEstablishedDate examples,`1963-03-08T14:07-0600` (8 Mar 1963 at 2:07pm in the time zone six hours earlier than UTC). `2009-02-20T08:40Z` (20 February 2009 8:40am UTC). `2018-08-29T15:19` (3:19pm local time on 29 August 2018). `1809-02-12` (some time during 12 February 1809). `1906-06` (some time in June 1906). `1971` (some time in the year 1971). `2007-03-01T13:00:00Z/2008-05-11T15:30:00Z` (some time during the interval between 1 March 2007 1pm UTC and 11 May 2008 3:30pm UTC). `1900/1909` (some time during the interval between the beginning of the year 1900 and the end of the year 1909). `2007-11-13/15` (some time in the interval between 13 November 2007 and 15 November 2007).
+relationshipOfResource examples,"`sameAs`, `duplicate of`, `mother of`, `offspring of`, `sibling of`, `parasite of`, `host of`, `valid synonym of`, `located within`, `pollinator of members of taxon`, `pollinated specific plant`, `pollinated by members of taxon`"
+relationshipRemarks examples,"`mother and offspring collected from the same nest`, `pollinator captured in the act`"
+reproductiveCondition examples,"`non-reproductive`, `pregnant`, `in bloom`, `fruit-bearing`"
+resourceID examples,`f809b9e0-b09b-11e8-96f8-529269fb1459`
+ResourceRelationship examples,An instance of an Organism is the mother of another instance of an Organism. A uniquely identified Occurrence represents the same Occurrence as another uniquely identified Occurrence. A MaterialSample is a subsample of another MaterialSample.
+resourceRelationshipID examples,`04b16710-b09c-11e8-96f8-529269fb1459`
+sampleSizeUnit examples,"`minute`, `hour`, `day`, `metre`, `square metre`, `cubic metre`"
+sampleSizeValue examples,`5` for sampleSizeValue with `metre` for sampleSizeUnit.
+samplingEffort examples,"`40 trap-nights`, `10 observer-hours`, `10 km by foot`, `30 km by car`"
+samplingProtocol examples,"`UV light trap`, `mist net`, `bottom trawl`, `ad hoc observation | point count`, `Penguins from space: faecal stains reveal the location of emperor penguin colonies, https://doi.org/10.1111/j.1466-8238.2009.00467.x`, `Takats et al. 2001. Guidelines for Nocturnal Owl Monitoring in North America. Beaverhill Bird Observatory and Bird Studies Canada, Edmonton, Alberta. 32 pp., http://www.bsc-eoc.org/download/Owl.pdf`"
+scientificName examples,"`Coleoptera` (order). `Vespertilionidae` (family). `Manis` (genus). `Ctenomys sociabilis` (genus + specificEpithet). `Ambystoma tigrinum diaboli` (genus + specificEpithet + infraspecificEpithet). `Roptrocerus typographi (Györfi, 1952)` (genus + specificEpithet + scientificNameAuthorship), `Quercus agrifolia var. oxyadenia (Torr.) J.T. Howell` (genus + specificEpithet + taxonRank + infraspecificEpithet + scientificNameAuthorship)."
+scientificNameAuthorship examples,"`(Torr.) J.T. Howell`, `(Martinovský) Tzvelev`, `(Györfi, 1952)`"
+scientificNameID examples,`urn:lsid:ipni.org:names:37829-1:1.3`
+sex examples,"`female`, `male`, `hermaphrodite`"
+specificEpithet examples,"`concolor`, `gottschei`"
+startDayOfYear examples,"`1` (1 January). `366` (31 December), `365` (30 December in a leap year, 31 December in a non-leap year)."
+stateProvince examples,"`Montana`, `Minas Gerais`, `Córdoba`"
+subgenus examples,"`Strobus`, `Amerigo`, `Pilosella`"
+Taxon examples,The genus Truncorotaloides as published by Brönnimann et al. in 1953 in the Journal of Paleontology Vol. 27(6) p. 817-820.
+taxonConceptID examples,`8fa58e08-08de-4ac1-b69c-1235340b7001`
+taxonID examples,"`8fa58e08-08de-4ac1-b69c-1235340b7001`, `32567`, `https://www.gbif.org/species/212`"
+taxonomicStatus examples,"`invalid`, `misapplied`, `homotypic synonym`, `accepted`"
+taxonRank examples,"`subspecies`, `varietas`, `forma`, `species`, `genus`"
+taxonRemarks examples,`this name is a misspelling in common use`
+typeStatus examples,"`holotype of Ctenomys sociabilis. Pearson O. P., and M. I. Christie. 1985. Historia Natural, 5(37):388`, `holotype of Pinus abies | holotype of Picea abies`"
+verbatimCoordinates examples,"`41 05 54S 121 05 34W`, `17T 630000 4833400`"
+verbatimCoordinateSystem examples,"`decimal degrees`, `degrees decimal minutes`, `degrees minutes seconds`, `UTM`"
+verbatimDepth examples,`100-200 m`
+verbatimElevation examples,`100-200 m`
+verbatimEventDate examples,"`spring 1910`, `Marzo 2002`, `1999-03-XX`, `17IV1934`"
+verbatimLatitude examples,`41 05 54.03S`
+verbatimLocality examples,`25 km NNE Bariloche por R. Nac. 237`
+verbatimLongitude examples,"`121d 10' 34"" W`"
+verbatimSRS examples,"`unknown`, `EPSG:4326`, `WGS84`, `NAD27`, `Campo Inchauspe`, `European 1950`, `Clarke 1866`"
+verbatimTaxonRank examples,"`Agamospecies`, `sub-lesus`, `prole`, `apomict`, `nothogrex`, `sp.`, `subsp.`, `var.`"
+vernacularName examples,"`Andean Condor`, `Condor Andino`, `American Eagle`, `Gänsegeier`"
+waterBody examples,"`Indian Ocean`, `Baltic Sea`, `Hudson River`, `Lago Nahuel Huapi`"
+year examples,"`1160`, `2008`"
+pathway examples,"`releasedForUse`, `otherEscape`, `transportContaminant`, `transportStowaway`, `corridor`, `unaided`"
+degreeOfEstablishment examples,"`native`, `captive`, `cultivated`, `released`, `failing`, `casual`, `reproducing`, `established`, `colonising`, `invasive`, `widespreadInvasive`"
+recordedByID examples,`https://orcid.org/0000-0002-1825-0097` (for an individual); `https://orcid.org/0000-0002-1825-0097 | https://orcid.org/0000-0002-1825-0098` (for a list of people).
+verticalDatum examples,"`EGM84`, `EGM96`, `EGM2008`, `PGM2000A`, `PGM2004`, `PGM2006`, `PGM2007`, `epsg:7030`, `unknown`"
+verbatimIdentification examples,"`Peromyscus sp.`, `Ministrymon sp. nov. 1`, `Anser anser X Branta canadensis`, `Pachyporidae?`"
+identifiedByID examples,"`https://orcid.org/0000-0002-1825-0097` (for an individual), `https://orcid.org/0000-0002-1825-0097 | https://orcid.org/0000-0002-1825-0098` (for a list of people). "
+subfamily examples,"`Periptyctinae`, `Orchidoideae`, `Sphindociinae`"
+genericName examples,"`Felis` (for scientificName ""Felis concolor"", with accompanying values of ""Puma concolor"" in acceptedNameUsage and ""Puma"" in genus)."
+infragenericEpithet examples,"`Abacetillus` (for scientificName ""Abacetus (Abacetillus) ambiguus"", `Cracca` (for scientificName ""Vicia sect. Cracca"")"
+cultivarEpithet examples,"`King Edward` (for scientificName ""Solanum tuberosum 'King Edward'"" and taxonRank ""cultivar""); `Mishmiense` (for scientificName ""Rhododendron boothii Mishmiense Group"" and taxonRank ""cultivar group""); `Atlantis` (for scientificName ""Paphiopedilum Atlantis grex"" and taxonRank ""grex"")."
+relationshipOfResourceID examples,"`http://purl.obolibrary.org/obo/RO_0002456` (for the relation ""pollinated by""), `http://purl.obolibrary.org/obo/RO_0002455` (for the relation ""pollinates""), `https://www.inaturalist.org/observation_fields/879` (for the relation ""eaten by"")"
+MaterialCitation examples,"A citation of a physical specimen from a scientific collection in a taxonomic treatment in a scientific publication. A citation of a group of physical specimens, such as paratypes in a taxonomic treatment in a scientific publication. An occurrence mentioned in a field note book."
