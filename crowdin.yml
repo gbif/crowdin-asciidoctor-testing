@@ -8,6 +8,6 @@ files:
     translation_replace:
       .en.: .
   - source: /*.en.csv
-    translation: /%file_name%.%two_letters_code%.vtt
+    translation: /%file_name%.%two_letters_code%.csv
     translation_replace:
       .en.: .
