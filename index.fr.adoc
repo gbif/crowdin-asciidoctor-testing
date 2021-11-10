@@ -47,7 +47,7 @@ Finally, to <<paragraphs,paragraphs (no custom id)>> or <<paragraphs>>.
 Ce qui précède ne semble pas fonctionner, nous pouvons donc essayer la syntaxe complète.
 
 ****
-We can link to xref:links[this section].
+Nous pouvons créer un lien vers xref:links[cette section]!
 
 We can also link this way: xref:links[].
 
