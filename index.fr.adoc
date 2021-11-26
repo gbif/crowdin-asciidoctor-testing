@@ -38,7 +38,7 @@ Nous pouvons créer un lien vers <<links, cette section>>!
 
 Nous pouvons également lier de cette façon : <<links>>.
 
-We can link to the section on <<Table test,tables>> (or <<Table test>>).  Also with <<testing-of-tables,the custom id>> or <<testing-of-tables>>.  Idem pour les <<blocks, blocs>> (ou <<blocks>>).
+We can link to the section on <<Table test, tables>> (or <<Table test>>).  Également avec <<testing-of-tables, l'identifiant personnalisé>> ou <<testing-of-tables>>.  Idem pour les <<blocks, blocs>> (ou <<blocks>>).
 
 Enfin, aux <<paragraphs, paragraphes (pas d'identifiant personnalisé)>> ou <<paragraphs>>.
 
@@ -164,9 +164,9 @@ WARNING: L'élément de liste avec des espaces pour continuer ne fonctionne pas 
 * Informations facultatives sur l'auteur et la révision
 suit immédiatement le titre de l'en-tête.
 
-* The document header must be separated from
-  the remainder of the document by one or more
-  blank lines and cannot contain blank lines.
+* L'en-tête du document doit être séparé de
+le reste du document par un ou plusieurs
+lignes vierges et ne peut pas contenir de lignes vierges.
 
 * L'en-tête dans AsciiDoc doit commencer par un titre de document.
 +
@@ -240,7 +240,7 @@ Un lien de référence croisée ressemble à xref:manage-resources.adoc#_les_cit
 
 CrowdIn ne prend-il en charge que AsciiDoc, pas AsciiDoctor ?  Version {asciidoctor} – {asciidoctor-version}.
 
-En-tête de niveau X (les deux)
+Level X header (both)
 ---------------------
 
 Level X header (AsciiDoc)
